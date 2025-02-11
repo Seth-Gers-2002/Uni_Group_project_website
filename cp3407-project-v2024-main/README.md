@@ -32,7 +32,20 @@ Checklist/TODOs:
 * User stories are correct: see p39
 * Must have more user stories than fits into iterations 1 and 2. To practice the priority.
 * [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-* ...
+* User SP
+* Sp can create, delete, edit. CH1
+* P=10 SP can create: Info=input location, pricem availm set password/email, phone
+* P=20 SP can edit info:
+* P=30 SP can delete
+* 
+* P=40 SP Monthly fee
+* P=40 SP gets their service listed for user.
+* P=10 all SP are listed, we get a cur from each booking.
+* 
+* SP can service location, price/per/hour, avalability. chq
+* Uswe info: create edit deleete: info: location, address, contact, name
+* P=10, one address 1d
+* P=30 multiple addresses 10d?
 
 Total: YY days
 
