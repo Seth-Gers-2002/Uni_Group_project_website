@@ -4,8 +4,8 @@ so that [benefit], so that collecting, storing and storing information is easier
 
 prioities from the user story
 
-10: form to fill out
-10: storing input information
-20: easy to access
-20: user self booking
+10: form to fill out about the job requirements
+10: storing job requirements input information
+20: easy to access job requirements infomation
+20: client self booking for cleaning jobs
 

@@ -6,4 +6,4 @@ prioities from the user story
 
 10: system for storing resources and supplies
 20: the ability to request for more stock
-30: ability to easily buy and replenish stock
+50: ability to easily buy and replenish stock

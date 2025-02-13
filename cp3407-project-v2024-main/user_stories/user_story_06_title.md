@@ -4,5 +4,5 @@ so that [benefit] it's easier to organize and delegate jobs
 
 prioities from the user story
 10: Display job opportunities 
-20: show who's has the task
-30: show selection and delegate.
+20: show who's has the avaliable job
+30: show selection and delegate jobs.
