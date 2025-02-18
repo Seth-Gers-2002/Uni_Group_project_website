@@ -1,0 +1,2 @@
+As a customer of SpicknSpan cleaning services, I want accessibility to an in-app chat support to communicate with the 
+service provider, so that I can quickly get assistance or ask questions without needing to leave the app
