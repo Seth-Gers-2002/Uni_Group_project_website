@@ -1,8 +1,6 @@
-# User story title: In-app Chat Support 
-*Notes:* This feature is important for enhancing the customer experience. It provides quick and accessible 
-assistance without needing to leave the app
+# User story title: In-app Chat Support
 
-## Priority: 15
+## Priority: 15 (Iteration 1)
 *Notes:* This feature is important for enhancing the customer experience. It provides immediate assistance 
 without leaving the app and may be refined in later iterations.
 
@@ -11,18 +9,23 @@ without leaving the app and may be refined in later iterations.
 * Seth:
 * Harrison:
 
-## Assumptions (if any):
+## Assumptions:
+- Integrates with an existing messaging service or a custom backend.
+- Real-time updates and persistent conversation storage are required.
+- Users must have a stable internet connection.
 
-## Description: e.g. The web page will show current deals to Orion's orbits users
-**Description-v1**
-As a customer of a cleaning service, I want accessibility to an in-app chat support to communicate with the 
-service provider, so that I can quickly get assistance or ask questions without needing to leave the app
+## Description:
+**Description-v1:**  
+As a customer, I want an in-app chat support feature so that I can quickly get assistance or ask questions without needing to leave the app.
 
-## Tasks, see chapter 4.
+**Description-v2:**  
+The web application will include a dedicated chat interface that connects users to support agents. Chat history should be stored and retrievable for future reference.
 
-1. Task 1, Estimation XX days
-2. ...
-
+## Tasks:
+1. **Design the Chat UI Component:** Create a mockup for the chat interface. 
+2. **Integrate a Messaging API:** Use a service like Firebase, AWS AppSync, or another chat service. 
+3. **Set Up Backend Storage:** Develop endpoints and database schema for storing chat histories. 
+4. **Testing:** Verify real-time communication and persistence. 
 
 # UI Design:
 * (New, not in the textbook) 
