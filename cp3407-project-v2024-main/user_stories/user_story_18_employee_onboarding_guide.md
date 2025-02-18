@@ -1,6 +1,6 @@
 # User story title: Employee Onboarding Guide  
 
-## Priority: 30 (Iteration 2)  
+## Priority: 30 (Iteration 1)  
 *Notes:* Helps new employees understand job expectations, safety guidelines, and company policies.  
 
 ## Estimation:  
