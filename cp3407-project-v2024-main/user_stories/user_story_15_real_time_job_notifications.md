@@ -9,16 +9,23 @@ which helps them manage their schedules effectively.
 * Seth:
 * Harrison:
 
-## Assumptions (if any):
+## Assumptions:
+- Customers are willing to rate and provide feedback after each service.
+- The ratings and reviews will be stored and used to calculate aggregate scores for service providers.
+- The feature must be integrated with the existing user and service provider profiles.
 
-## Description: e.g. The web page will show current deals to Orion's orbits users
-As a cleaning service provider, I want to receive real-time notifications about booking confirmations, 
-cancellations, or changes so that I can adjust my schedule accordingly.
+## Description:
+**Description-v1:**  
+As a customer, I want to be able to rate and provide feedback after a cleaning service so that I can help other users make informed decisions and enable service providers to improve their offerings.
 
-## Tasks, see chapter 4.
+**Description-v2:**  
+After each service, a rating form (e.g., 1-5 stars and a comment box) will be presented. Submitted ratings will be aggregated and displayed on the service provider's profile, influencing future booking decisions.
 
-1. Task 1, Estimation XX days
-2. ...
+## Tasks:
+1. **Design the Feedback Form UI:** Develop a simple and intuitive form for rating and commenting. 
+2. **Backend Integration:** Create endpoints for storing and retrieving feedback data in the database. 
+3. **Display Aggregated Ratings:** Update service provider profiles to show average ratings and recent comments. 
+4. **Testing:** Verify that ratings are stored correctly and the UI updates in real time. 
 
 # UI Design:
 * (New, not in the textbook) 
