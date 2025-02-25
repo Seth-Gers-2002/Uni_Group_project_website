@@ -21,8 +21,9 @@ certifications, so that I know I am choosing an environmentally friendly option 
 
 ## Tasks, see chapter 4.
 
-1. Task 1, Estimation XX days
-2. ...
+1. Task 1: Allow service providers to add environmental certifications in profile settings, Estimation XX days
+2. Task 2: Verify entered environmental certifications, Estimation XX days
+3. Task 3: Display environmental certifications in relevant locations, Estimation XX days
 
 
 # UI Design:
