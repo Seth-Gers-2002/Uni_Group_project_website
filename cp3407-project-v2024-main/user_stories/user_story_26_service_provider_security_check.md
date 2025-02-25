@@ -23,8 +23,8 @@ relevant checks to ensure they are legitimate businesses, so that I can access s
 
 ## Tasks, see chapter 4.
 
-1. Task 1, Estimation XX days
-2. ...
+1. Task 1: Include a field in the registration form for users to enter their ABN, Estimation XX days
+2. Task 2: Perform an automated check to ensure the ABN number is valid during registration, Estimation XX days
 
 
 # UI Design:

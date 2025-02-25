@@ -23,8 +23,11 @@ I can improve my relevant knowledge and share my own to help others.
 
 ## Tasks, see chapter 4.
 
-1. Task 1, Estimation XX days
-2. ...
+1. Task 1: Decide which forum platform to utilise, Estimation XX days
+2. Task 2: Design and implement the layout of the community forum, Estimation XX days
+3. Task 3: Create user guidelines and moderation policy, Estimation XX days
+4. Task 4: Allow users to create and view posts, Estimation XX days
+5. Task 5: Implement admin/moderator tools, Estimation XX days
 
 
 # UI Design:

@@ -23,8 +23,9 @@ as to which service provider I wish to choose for my job.
 
 ## Tasks, see chapter 4.
 
-1. Task 1, Estimation XX days
-2. ...
+1. Task 1: Framework to display service provider profiles to customers, Estimation XX days
+2. Task 2: Get service provider details, Estimation XX days
+3. Task 3: Display service provider details in a public profile page, Estimation XX days
 
 
 # UI Design:

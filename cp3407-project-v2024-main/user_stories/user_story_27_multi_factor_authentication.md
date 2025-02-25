@@ -21,8 +21,10 @@ I know my account is far less likely to be breached and personal information exp
 
 ## Tasks, see chapter 4.
 
-1. Task 1, Estimation XX days
-2. ...
+1. Task 1: Allow users to enable multi-factor authentication when they register, Estimation XX days
+2. Task 2: Generate a random number token when users log in, Estimation XX days
+3. Task 3: Verify the entered details match what was generated, Estimation XX days
+4. Task 4: Add option to enable/disable multi-factor authentication in profile settings, Estimation XX days
 
 
 # UI Design:

@@ -20,8 +20,8 @@ stars, so that I can have a quick and easy to understand visual summary of a ser
 
 ## Tasks, see chapter 4.
 
-1. Task 1, Estimation XX days
-2. ...
+1. Task 1: Get the average rating from customer ratings for a service provider, Estimation XX days
+2. Task 2: Display star rating for each time a service providers profile is displayed
 
 
 # UI Design:

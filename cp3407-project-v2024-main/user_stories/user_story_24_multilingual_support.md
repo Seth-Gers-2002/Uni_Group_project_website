@@ -19,8 +19,9 @@ speaking in, so that I can better understand the on-screen text when using the w
 
 ## Tasks, see chapter 4.
 
-1. Task 1, Estimation XX days
-2. ...
+1. Task 1: Store translations for all user interfaces from database, Estimation XX days
+2. Task 2: Detect the customers/service providers default language
+3. Task 3: Dynamically update the site to display relevant translations
 
 
 # UI Design:
