@@ -7,7 +7,7 @@ downsides however and is beyond the scope of the project. Likely better off usin
 Facebook.
 
 ## Estimation:
-* Aaron:
+* Aaron: 7 days
 * Seth:
 * Harrison:
 

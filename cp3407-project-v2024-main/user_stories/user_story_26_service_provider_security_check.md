@@ -6,7 +6,7 @@ Justification: It is extremely important that measures be taken to ensure that a
 are legitimate businesses otherwise this could have serious legal consequences for the project (negligence).
 
 ## Estimation:
-* Aaron:
+* Aaron: 5 days
 * Seth:
 * Harrison:
 
