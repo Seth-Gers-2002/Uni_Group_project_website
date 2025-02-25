@@ -4,7 +4,7 @@
 *Notes:* Helps new employees understand job expectations, safety guidelines, and company policies.  
 
 ## Estimation:  
-* Aaron:  
+* Aaron: 6 days 
 * Seth:  1 day
 * Harrison:  
 

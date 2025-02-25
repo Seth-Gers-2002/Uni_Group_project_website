@@ -6,7 +6,7 @@ Justification: Visually summarises the trustworthiness of a service provider wit
 profile or background.
 
 ## Estimation:
-* Aaron:
+* Aaron: 1 day
 * Seth: 2 days
 * Harrison:
 

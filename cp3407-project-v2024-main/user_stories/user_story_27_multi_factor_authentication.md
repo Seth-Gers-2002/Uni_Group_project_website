@@ -6,7 +6,7 @@ Justification: Very important to ensure security for both customer and service p
 users should also be encouraged to create very strong passwords.
 
 ## Estimation:
-* Aaron:
+* Aaron: 3 days
 * Seth: 4 days
 * Harrison:
 

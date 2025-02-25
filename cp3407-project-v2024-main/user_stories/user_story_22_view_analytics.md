@@ -7,7 +7,7 @@ on data. Even if it has to be simplified to fit the limitations of the project, 
 nothing.
 
 ## Estimation:
-* Aaron:
+* Aaron: 8 days
 * Seth: 5 days
 * Harrison:
 

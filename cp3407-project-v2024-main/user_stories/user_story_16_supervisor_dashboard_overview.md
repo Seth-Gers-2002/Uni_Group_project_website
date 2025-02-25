@@ -4,7 +4,7 @@
 *Notes:* Supervisors need an easy way to monitor ongoing jobs and employee availability to improve scheduling and efficiency.
 
 ## Estimation:
-* Aaron:  
+* Aaron: 7 days
 * Seth: 2 days
 * Harrison:  
 

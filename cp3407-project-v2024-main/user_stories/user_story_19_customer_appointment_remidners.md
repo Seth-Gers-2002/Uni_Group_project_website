@@ -4,7 +4,7 @@
 *Notes:* Reduces no-shows and ensures customers remember their bookings.  
 
 ## Estimation:  
-* Aaron:  
+* Aaron: 2 days 
 * Seth:  4 days
 * Harrison:  
 

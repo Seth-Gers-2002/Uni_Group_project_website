@@ -6,7 +6,7 @@ Justification: Not essential to the core functionality of the website. It would 
 about the service provider before booking, advantageous for building trust.
 
 ## Estimation:
-* Aaron:
+* Aaron: 2 days
 * Seth: 3 days
 * Harrison:
 

@@ -17,7 +17,7 @@ The landing page of the website allows you to sign in as different types of prof
 
 ## Estimation: e.g. 2 days
 Any notes on estimation go here. Keep your planning poker game numbers. For example
-* Aaron:
+* Aaron: 4 days
 * Seth: 1 day
 * Harrison:
 
