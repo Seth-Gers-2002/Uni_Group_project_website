@@ -5,7 +5,7 @@
 
 ## Estimation:  
 * Aaron:  
-* Seth:  
+* Seth:  1 day
 * Harrison:  
 
 ## Assumptions (if any):  

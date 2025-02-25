@@ -7,7 +7,7 @@ about the service provider before booking, advantageous for building trust.
 
 ## Estimation:
 * Aaron:
-* Seth:
+* Seth: 3 days
 * Harrison:
 
 ## Assumptions (if any):

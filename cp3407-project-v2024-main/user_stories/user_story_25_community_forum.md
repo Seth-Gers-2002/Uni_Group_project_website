@@ -8,7 +8,7 @@ Facebook.
 
 ## Estimation:
 * Aaron:
-* Seth:
+* Seth: 4 days
 * Harrison:
 
 ## Assumptions (if any):

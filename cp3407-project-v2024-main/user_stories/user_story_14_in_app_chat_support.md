@@ -6,7 +6,7 @@ without leaving the app and may be refined in later iterations.
 
 ## Estimation:
 * Aaron:
-* Seth:
+* Seth: 2 days
 * Harrison:
 
 ## Assumptions:

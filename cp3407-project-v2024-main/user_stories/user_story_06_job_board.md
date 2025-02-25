@@ -18,7 +18,7 @@ An tab that's dedicated too displaying job oppurtunities, availability and assig
 ## Estimation: e.g. 2 days
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron:
-* Seth:
+* Seth: 1 week
 * Harrison:
 
 

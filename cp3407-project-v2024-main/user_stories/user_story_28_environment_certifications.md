@@ -7,7 +7,7 @@ use with this feature. However, this feature was absent from existing solutions.
 
 ## Estimation:
 * Aaron:
-* Seth:
+* Seth: 2 days
 * Harrison:
 
 ## Assumptions (if any):

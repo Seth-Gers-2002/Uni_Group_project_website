@@ -7,7 +7,7 @@ are legitimate businesses otherwise this could have serious legal consequences f
 
 ## Estimation:
 * Aaron:
-* Seth:
+* Seth: 2 days
 * Harrison:
 
 ## Assumptions (if any):

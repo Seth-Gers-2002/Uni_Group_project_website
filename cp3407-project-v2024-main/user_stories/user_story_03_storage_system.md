@@ -18,7 +18,7 @@ The addition of a storage system is mandatory, manging supplies, jobs, locations
 ## Estimation: e.g. 2 days
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron:
-* Seth:
+* Seth: 5 days 
 * Harrison:
 
 

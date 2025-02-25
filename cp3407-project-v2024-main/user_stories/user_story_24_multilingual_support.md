@@ -6,7 +6,7 @@ Justification: Most users will have at least some competency in English.
 
 ## Estimation:
 * Aaron:
-* Seth:
+* Seth: 5 days
 * Harrison:
 
 ## Assumptions (if any):

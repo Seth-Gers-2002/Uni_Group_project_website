@@ -15,7 +15,7 @@ it is an easy addition but an unnesscary one, there is more important features t
 ## Estimation: e.g. 2 days
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron:
-* Seth:
+* Seth: less then a day 
 * Harrison:
 
 

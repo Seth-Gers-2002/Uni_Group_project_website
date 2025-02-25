@@ -6,7 +6,7 @@ which helps them manage their schedules effectively.
 
 ## Estimation:
 * Aaron:
-* Seth:
+* Seth: 3 days
 * Harrison:
 
 ## Assumptions:

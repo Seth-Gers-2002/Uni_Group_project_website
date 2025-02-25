@@ -6,7 +6,7 @@ Justification: Potentially dangerous spills can require immediate cleaning by sp
 
 ## Estimation:
 * Aaron:
-* Seth:
+* Seth: 4 days
 * Harrison:
 
 ## Assumptions (if any):

@@ -8,7 +8,7 @@ nothing.
 
 ## Estimation:
 * Aaron:
-* Seth:
+* Seth: 5 days
 * Harrison:
 
 ## Assumptions (if any):
