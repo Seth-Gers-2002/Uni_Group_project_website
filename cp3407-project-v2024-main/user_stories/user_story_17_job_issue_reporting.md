@@ -6,7 +6,7 @@
 ## Estimation:  
 * Aaron: 3 days
 * Seth: 2 days
-* Harrison:  
+* Harrison: 4 days 
 
 ## Assumptions (if any):  
 * Employees may encounter issues during a job and need a way to report them efficiently.  

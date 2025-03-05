@@ -20,7 +20,7 @@ An tab that's dedicated too displaying the current amount and location of cleani
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron: 5 days
 * Seth: 12 days
-* Harrison:
+* Harrison: 8 days
 
 
 ## Assumptions (if any):

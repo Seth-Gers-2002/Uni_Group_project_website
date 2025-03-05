@@ -9,7 +9,7 @@ Facebook.
 ## Estimation:
 * Aaron: 7 days
 * Seth: 4 days
-* Harrison:
+* Harrison: 3 days 
 
 ## Assumptions (if any):
 * Requires constant moderation (consistent financial cost)

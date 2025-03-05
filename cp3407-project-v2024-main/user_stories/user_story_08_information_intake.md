@@ -18,7 +18,7 @@ An tab/form that's dedicated too collecting information relating to the job
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron: 4 days
 * Seth: 2 days
-* Harrison:
+* Harrison: 1 day
 
 
 ## Assumptions (if any):

@@ -7,7 +7,7 @@ Justification: Potentially dangerous spills can require immediate cleaning by sp
 ## Estimation:
 * Aaron: 2 days
 * Seth: 4 days
-* Harrison:
+* Harrison: 2 days 
 
 ## Assumptions (if any):
 * Not all companies will wish to offer this service

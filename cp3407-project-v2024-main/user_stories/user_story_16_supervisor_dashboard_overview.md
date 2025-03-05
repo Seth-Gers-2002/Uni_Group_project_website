@@ -6,7 +6,7 @@
 ## Estimation:
 * Aaron: 7 days
 * Seth: 2 days
-* Harrison:  
+* Harrison: 7 days 
 
 ## Assumptions (if any):
 * Supervisors need a real-time overview of job status.

@@ -7,7 +7,7 @@ prioities from the user story
 10: system for storing resources and supplies
 20: the ability to request for more stock
 50: ability to easily buy and replenish stock
-
+(could this be split up into more user stories?)
 
 # User story title: Storage system
 
@@ -19,7 +19,7 @@ The addition of a storage system is mandatory, manging supplies, jobs, locations
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron: 9 days
 * Seth: 5 days 
-* Harrison:
+* Harrison: 6 days
 
 
 ## Assumptions (if any):

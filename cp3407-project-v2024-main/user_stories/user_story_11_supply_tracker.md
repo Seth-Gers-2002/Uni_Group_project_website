@@ -20,7 +20,7 @@ An tab that's dedicated the location and quantity of item
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron: 5 days
 * Seth: 12 days
-* Harrison:
+* Harrison: 10 days 
 
 
 ## Assumptions (if any):

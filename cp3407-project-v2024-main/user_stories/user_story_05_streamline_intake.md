@@ -20,7 +20,7 @@ A fully detailed job intake sheet that has all nesscary information points
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron: 4 days
 * Seth: 2 days 
-* Harrison:
+* Harrison: 3 days 
 
 
 ## Assumptions (if any):

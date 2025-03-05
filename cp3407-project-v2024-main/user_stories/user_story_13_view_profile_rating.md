@@ -8,7 +8,7 @@ profile or background.
 ## Estimation:
 * Aaron: 1 day
 * Seth: 2 days
-* Harrison:
+* Harrison: 2 days 
 
 ## Assumptions (if any):
 
