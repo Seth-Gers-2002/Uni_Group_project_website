@@ -9,31 +9,40 @@ priorities:
 50: able to order supplies straight into storage
 
 
-# User story title: Supply tracker
+# User story title: Supply Tracker – Inventory Management
 
 ## Priority: 30
 Could have:
-An tab that's dedicated the location and quantity of item
-
+A dedicated tab that displays the list and quantities of supplies available, with indicators for low stock, so that cleaners can monitor inventory levels and know when something is missing.
 
 ## Estimation: e.g. 2 days
-Any notes on estimation go here. Keep your planning poker game numbers. For example
-* Aaron: 5 days
-* Seth: 12 days
-* Harrison: 10 days 
-
+Any notes on estimation:
+* Aaron: x
+* Seth: x
+* Harrison: x
 
 ## Assumptions (if any):
+- There is an integrated inventory database that logs the quantity of each supply.
+- The system is updated in real time to reflect current stock.
+- Alerts can be generated for supplies that fall below a predefined threshold.
 
-## Description: e.g. The web page will show current deals to Orion's orbits users
+## Description:
+A simple yet robust interface that provides an overview of all supplies for the business. This tab displays the supply names, their current quantities, and flags for any items running low, ensuring that the cleaner knows what is available and what requires restocking.
 
-Description-v1: e.g. A tab that displays the amount and location of supplies and if they need to be bought or re-filled
+Description-v1:
+A tab that displays essential details like the amount of each item in stock, along with visual cues indicating if supplies need replenishing, enabling quick checks before a job begins.
 
-## Tasks, see chapter 4.
-
-
+## Tasks, see chapter 4:
+- Design the layout for the inventory display tab.
+- Develop UI components to list supply items with their quantities.
+- Implement backend API endpoints to fetch and update supply data.
+- Add logic for low-stock alerts and notifications.
+- Test real-time data updates and user interactions.
 
 # UI Design:
-
+- A clear, scrollable panel with supply names, quantities, and alert icons.
+- Color-coded indicators (e.g., green for sufficient, red for low stock).
+- Responsive design for mobile and desktop.
 
 # Completed:
+(Not completed)
