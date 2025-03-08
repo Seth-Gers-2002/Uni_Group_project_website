@@ -8,31 +8,39 @@ prioities from the user story
 30: show selection and delegate jobs.
 
 
-# User story title: Job board
+# User story title: Job Board
 
 ## Priority: 20
 Could have:
-An tab that's dedicated too displaying job oppurtunities, availability and assignment
-
+A tab dedicated to displaying job opportunities, availability, and assignment.
 
 ## Estimation: e.g. 2 days
-Any notes on estimation go here. Keep your planning poker game numbers. For example
-* Aaron: 5 days
-* Seth: 1 week
-* Harrison: 4 days 
-
+Any notes on estimation:
+* Aaron: x
+* Seth: x
+* Harrison: x
 
 ## Assumptions (if any):
+- The job board will be accessible to all professional cleaners.
+- The job details displayed will include job location, requirements, and assigned teams/employees.
+- The system will allow easy assignment of jobs to available team members.
 
-## Description: e.g. The web page will show current deals to Orion's orbits users
+## Description:
+A dedicated job board interface that provides an overview of available job opportunities, shows current assignments, and allows for easy delegation of jobs to teams or individual employees. This will streamline the job organization and delegation process, ensuring that tasks are clearly assigned and tracked.
 
-Description-v1: e.g. A tab that displays the available jobs, with sections to indicate where and if it's taken or not. 
+Description-v1:
+A tab within the system that displays available jobs, showing details such as job location, requirements, and whether the job has been assigned. This interface will facilitate easy viewing and assignment of jobs, improving operational efficiency.
 
-## Tasks, see chapter 4.
-
-
+## Tasks, see chapter 4:
+- Design the job board layout and define essential fields (e.g., job title, location, status, assigned employee/team).
+- Develop UI components for displaying job opportunities.
+- Implement backend logic to handle job status updates and assignment operations.
+- Integrate functionality to assign jobs to employees or teams from the job board.
+- Conduct usability testing to ensure the interface is user-friendly and effective.
 
 # UI Design:
-
+- A clean, intuitive job board layout with clear sections for job details, availability status, and assignment options.
+- Include filters and search functionality to quickly locate specific jobs.
 
 # Completed:
+(Not completed)
