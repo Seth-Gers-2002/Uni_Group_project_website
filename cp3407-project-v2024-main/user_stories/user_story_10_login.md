@@ -8,31 +8,40 @@ prioities from the user story
 20: easy and streamlined log in process
 
 
-# User story title: Login
+# User story title: Basic Login Functionality
 
-## Priority: 20
+## Priority: 10
 Could have:
-The landing page of the website allows you to sign in as different types of profiles
-
+A basic and reliable login page where employees can enter their credentials (ID and password) to access the website, ensuring they can start their work with security and continuity.
 
 ## Estimation: e.g. 2 days
-Any notes on estimation go here. Keep your planning poker game numbers. For example
-* Aaron: 4 days
-* Seth: 1 day
-* Harrison: 2 days 
-
+Any notes on estimation:
+* Aaron: x
+* Seth: x
+* Harrison: x
 
 ## Assumptions (if any):
+- Every employee has a unique ID and secure password.
+- The backend authentication service is available and integrated.
+- Basic error handling and session management are implemented to prevent unwanted logouts.
 
-## Description: e.g. The web page will show current deals to Orion's orbits users
+## Description:
+A straightforward login system for Scrubit Clean employees that allows access to the website by entering a user ID and password. This foundational feature ensures that all employees have a secure and consistent method to authenticate before starting work.
 
-Description-v1: e.g. A login page that takes ID and password
+Description-v1:
+A login interface featuring input fields for user ID and password, providing reliable access to the system while handling errors gracefully. It forms the backbone of the authentication process allowing the employee to reach their dashboard or work area.
 
-## Tasks, see chapter 4.
-
-
+## Tasks, see chapter 4:
+- Design the layout for the login form with clear fields for ID and password.
+- Develop frontend components, including input validation and error display.
+- Implement backend authentication endpoints with session management.
+- Integrate basic security measures (e.g., HTTPS, token/cookie management).
+- Test the functionality across multiple devices and browsers.
 
 # UI Design:
-
+- A simple, clutter‑free login screen with prominently placed input fields.
+- A “Login” button with clear call-to-action.
+- Responsive design suitable for both desktop and mobile devices.
 
 # Completed:
+(Not completed)
