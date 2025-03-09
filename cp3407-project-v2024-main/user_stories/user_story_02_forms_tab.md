@@ -28,9 +28,9 @@ Description-v1: e.g. It will be a forms tab where an admin or private contractor
 ## Tasks, see chapter 4.
 
 
+## UI Design:
+![User Story 2 Wireframe](user_story_wireframes/User_Story_2_Wireframe.png)
 
-# UI Design:
-![User_Story_2_Wireframe](jetbrains://pycharm/navigate/reference?project=cp3407-project-LateBirds&path=cp3407-project-v2024-main%2Fuser_stories%2Fuser_story_wireframes%2FUser_Story_2_Wireframe.png)
 
 
 # Completed:
