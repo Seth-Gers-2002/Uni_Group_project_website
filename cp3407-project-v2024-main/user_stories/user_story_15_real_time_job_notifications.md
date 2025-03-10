@@ -7,7 +7,7 @@ which helps them manage their schedules effectively.
 ## Estimation:
 * Aaron: 2 days
 * Seth: 3 days
-* Harrison:
+* Harrison: 4 days 
 
 ## Assumptions:
 - Customers are willing to rate and provide feedback after each service.

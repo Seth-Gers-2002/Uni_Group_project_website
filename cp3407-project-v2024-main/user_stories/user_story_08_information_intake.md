@@ -7,31 +7,40 @@ prioities from the user story
 10: system for taking customer information
 20: a system that collects all the required information
 
+# User story title: Customer Information Intake System
 
-# User story title: Information intake
-## Priority: 20
+## Priority: 10
 Could have:
-An tab/form that's dedicated too collecting information relating to the job
-
+A dedicated system/interface where the cleaner can quickly take initial customer information. This ensures that essential details are captured before the job begins.
 
 ## Estimation: e.g. 2 days
-Any notes on estimation go here. Keep your planning poker game numbers. For example
-* Aaron: 4 days
-* Seth: 2 days
-* Harrison:
-
+Any notes on estimation:
+* Aaron: x
+* Seth: x
+* Harrison: x
 
 ## Assumptions (if any):
+- The interface will focus on capturing the most critical fields (name, contact, and a brief job description).
+- The system will be easy to use in real-time, potentially on mobile devices.
+- Data entered here is preliminary and may be further detailed later.
 
-## Description: e.g. The web page will show current deals to Orion's orbits users
+## Description:
+A simple, user-friendly intake form tailored for Spot Less D.I.R.T cleaners to quickly input basic customer information. This enables the cleaner to have immediate access to essential customer details and prepare for the job accordingly.
 
-Description-v1: e.g. A tab thats has boxes that can be filled of information and stored for admin and job usage
+Description-v1:
+A streamlined form with minimal fields designed to be completed rapidly by the cleaner, ensuring that the primary customer information is collected with minimal disruption to the workflow.
 
-## Tasks, see chapter 4.
-
-
+## Tasks, see chapter 4:
+- Design the layout and identify key fields for initial customer data.
+- Develop the frontend UI components with mobile responsiveness.
+- Implement basic form validation and data submission protocols.
+- Develop backend endpoints to store the captured information securely.
+- Test the feature under realistic conditions (e.g., in varying network conditions).
 
 # UI Design:
-
+- A clear, minimalistic design focusing on ease of use.
+- Prominent input fields for customer name, contact, and job overview.
+- Responsive design that works on both tablets and smartphones.
 
 # Completed:
+(Not completed)

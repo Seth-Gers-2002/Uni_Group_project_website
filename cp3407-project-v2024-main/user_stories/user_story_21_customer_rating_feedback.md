@@ -6,7 +6,7 @@
 ## Estimation:
 * Aaron: 2 days
 * Seth: 2 days
-* Harrison:
+* Harrison: 3 days 
 
 ## Assumptions:
 - Customers are willing to rate and provide feedback after each service.

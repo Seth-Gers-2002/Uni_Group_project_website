@@ -8,7 +8,7 @@ are legitimate businesses otherwise this could have serious legal consequences f
 ## Estimation:
 * Aaron: 5 days
 * Seth: 2 days
-* Harrison:
+* Harrison: 5 days
 
 ## Assumptions (if any):
 * New service provider accounts will require a valid ABN number

@@ -7,7 +7,7 @@ without leaving the app and may be refined in later iterations.
 ## Estimation:
 * Aaron: 5 days
 * Seth: 2 days
-* Harrison:
+* Harrison: 4 days 
 
 ## Assumptions:
 - Integrates with an existing messaging service or a custom backend.

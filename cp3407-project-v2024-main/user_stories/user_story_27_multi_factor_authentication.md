@@ -8,7 +8,7 @@ users should also be encouraged to create very strong passwords.
 ## Estimation:
 * Aaron: 3 days
 * Seth: 4 days
-* Harrison:
+* Harrison: 5 Days
 
 ## Assumptions (if any):
 * Sent via text/email

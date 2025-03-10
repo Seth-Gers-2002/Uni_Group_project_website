@@ -6,7 +6,7 @@
 ## Estimation:  
 * Aaron: 4 days
 * Seth:  2 days
-* Harrison:  
+* Harrison: 5 days 
 
 ## Assumptions (if any):  
 * Supervisors need reports on job completion times and employee performance.  

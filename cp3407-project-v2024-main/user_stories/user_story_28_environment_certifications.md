@@ -8,7 +8,7 @@ use with this feature. However, this feature was absent from existing solutions.
 ## Estimation:
 * Aaron: 2 days
 * Seth: 2 days
-* Harrison:
+* Harrison: 1 day 
 
 ## Assumptions (if any):
 * Customers will want to filter results by service providers with environmental certifications

@@ -9,7 +9,7 @@ nothing.
 ## Estimation:
 * Aaron: 8 days
 * Seth: 5 days
-* Harrison:
+* Harrison: 7 days 
 
 ## Assumptions (if any):
 

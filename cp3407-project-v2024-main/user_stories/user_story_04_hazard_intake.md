@@ -17,7 +17,7 @@ An addition to the job intake section that's specifically for hazards and warnin
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron: 1 day
 * Seth: 1 hour 
-* Harrison:
+* Harrison: 0.5 days 
 
 
 ## Assumptions (if any):

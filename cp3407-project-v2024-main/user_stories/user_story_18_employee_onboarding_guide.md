@@ -6,7 +6,7 @@
 ## Estimation:  
 * Aaron: 6 days 
 * Seth:  1 day
-* Harrison:  
+* Harrison: 4 days 
 
 ## Assumptions (if any):  
 * New employees require guided onboarding.  

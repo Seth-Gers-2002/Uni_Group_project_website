@@ -6,7 +6,7 @@
 ## Estimation:  
 * Aaron: 2 days 
 * Seth:  4 days
-* Harrison:  
+* Harrison: 4 days 
 
 ## Assumptions (if any):  
 * Customers need confirmations and reminders via email/SMS.  

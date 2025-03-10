@@ -7,7 +7,7 @@ Justification: Most users will have at least some competency in English.
 ## Estimation:
 * Aaron: 14 days (depends on number of languages implemented)
 * Seth: 5 days
-* Harrison:
+* Harrison: 5 days 
 
 ## Assumptions (if any):
 
