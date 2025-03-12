@@ -28,6 +28,8 @@ relevant checks to ensure they are legitimate businesses, so that I can access s
 
 
 # UI Design:
-
+** Registration Form Layout:
+* Field: "ABN Number" with validation checks.
+* Field: TOS Disclaimer with a checkbox for agreement.
 
 # Completed:

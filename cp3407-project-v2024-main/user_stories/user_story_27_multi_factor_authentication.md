@@ -28,6 +28,16 @@ I know my account is far less likely to be breached and personal information exp
 
 
 # UI Design:
+** Registration Form Layout:
+* Field: "Enable Multi-Factor Authentication" with a checkbox.
+* Field: "Preferred Method" (Text/Email) dropdown.
 
+** Login Page Layout:
+* Step 1: Standard login fields (Username and Password).
+* Step 2: Token input field for MFA.
+
+** Profile Settings Layout:
+* Field: "Enable/Disable Multi-Factor Authentication" toggle switch.
+* Field: "Change Preferred Method" dropdown.
 
 # Completed:
