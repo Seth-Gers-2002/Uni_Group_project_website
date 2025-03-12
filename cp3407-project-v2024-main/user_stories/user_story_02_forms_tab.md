@@ -28,8 +28,9 @@ Description-v1: e.g. It will be a forms tab where an admin or private contractor
 ## Tasks, see chapter 4.
 
 
+## UI Design:
+![User Story 2 Wireframe](user_story_wireframes/User_Story_2_Wireframe.png)
 
-# UI Design:
 
 
 # Completed:

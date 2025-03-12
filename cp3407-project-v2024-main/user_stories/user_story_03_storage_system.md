@@ -34,6 +34,7 @@ A large database that accepts and organizes input from multiple users, categoriz
 # UI Design:
 - Develop a dashboard interface displaying current supplies with search and filter functionality.
 - Include detailed views for inventory items with edit options.
+![User Story 3 Wireframe](user_story_wireframes/User_Story_3_Wireframe.png)
 
 # Completed:
 (Not completed)
