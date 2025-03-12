@@ -15,7 +15,7 @@ A dedicated system/interface where the cleaner can quickly take initial customer
 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
-* Aaron: x
+* Aaron: 2 days
 * Seth: x
 * Harrison: 3 days
 

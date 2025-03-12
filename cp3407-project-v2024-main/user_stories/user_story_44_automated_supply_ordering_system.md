@@ -6,7 +6,7 @@ An automated module that locates required cleaning supplies based on the request
 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
-* Aaron: x days
+* Aaron: 4 days
 * Seth: x days
 * Harrison: 5 days
 

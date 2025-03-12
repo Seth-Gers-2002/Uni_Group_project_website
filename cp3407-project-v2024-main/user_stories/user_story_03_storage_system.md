@@ -10,7 +10,7 @@ The addition of a storage system is mandatory. Managing supplies, jobs, location
 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
-* Aaron: x
+* Aaron: 3 days
 * Seth: x 
 * Harrison: 3 days
 

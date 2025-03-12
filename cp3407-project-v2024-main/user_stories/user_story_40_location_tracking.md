@@ -6,7 +6,7 @@ A feature that shows the physical location and access details for each supply it
 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
-* Aaron: x
+* Aaron: 1 day
 * Seth: x
 * Harrison: 2 days
 

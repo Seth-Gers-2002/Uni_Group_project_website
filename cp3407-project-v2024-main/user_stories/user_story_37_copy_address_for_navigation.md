@@ -6,7 +6,7 @@ A feature enabling professional cleaners to easily copy the job address from the
 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
-* Aaron: x
+* Aaron: 0.5 days
 * Seth: x
 * Harrison: 1 day
 

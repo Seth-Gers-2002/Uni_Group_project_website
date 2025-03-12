@@ -6,7 +6,7 @@ A more detailed system that collects all the required customer information, ensu
 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
-* Aaron: x
+* Aaron: 2 days
 * Seth: x
 * Harrison: 2 days 
 

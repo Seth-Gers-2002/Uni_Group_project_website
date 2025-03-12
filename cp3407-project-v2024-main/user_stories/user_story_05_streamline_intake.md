@@ -17,7 +17,7 @@ A fully detailed job intake sheet that has all necessary information points.
 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
-* Aaron: 4 days
+* Aaron: 3 days
 * Seth: 2 days 
 * Harrison: 3 days
 

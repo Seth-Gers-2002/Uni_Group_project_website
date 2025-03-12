@@ -6,7 +6,7 @@ An enhanced login process on the landing page that is optimized for ease-of-use,
 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
-* Aaron: x
+* Aaron: 2 days
 * Seth: x
 * Harrison: 2 days
 
