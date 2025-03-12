@@ -19,7 +19,7 @@ A dedicated tab that displays the current amount, type, and location of cleaning
 Any notes on estimation:
 * Aaron: x days
 * Seth: x days
-* Harrison: x days
+* Harrison: 2 days
 
 ## Assumptions (if any):
 - All cleaning supplies in stock are logged with details such as quantity, type, and storage location.

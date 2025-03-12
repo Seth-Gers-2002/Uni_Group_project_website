@@ -6,8 +6,8 @@ An enhanced login process on the landing page that is optimized for ease-of-use,
 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
-* Aaron: 4 days
-* Seth: 1 day
+* Aaron: x
+* Seth: x
 * Harrison: 2 days
 
 ## Assumptions (if any):

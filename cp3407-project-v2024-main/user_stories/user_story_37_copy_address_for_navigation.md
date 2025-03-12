@@ -1,6 +1,6 @@
 # User story title: Copy Address for Navigation
 
-## Priority: 10
+## Priority: 15
 Could have:
 A feature enabling professional cleaners to easily copy the job address from the job details page for use in external GPS or mapping applications.
 
@@ -8,7 +8,7 @@ A feature enabling professional cleaners to easily copy the job address from the
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 1 day
 
 ## Assumptions (if any):
 - The job details page already displays a valid address.

@@ -7,7 +7,7 @@ A component that lists all available job opportunities with key details.
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 1 day
 
 ## Assumptions (if any):
 - Job opportunities will be updated in real-time.

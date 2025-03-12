@@ -31,6 +31,6 @@ Description-v1: e.g. A section on the intake form (for both user and admin booki
 
 
 # UI Design:
-
+![User Story 4 Wireframe](user_story_wireframes/User_Story_4_Wireframe.png)
 
 # Completed:

@@ -17,7 +17,7 @@ That on the job details there is a section that displays the address using a GPS
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 1 day
 
 
 ## Assumptions (if any):

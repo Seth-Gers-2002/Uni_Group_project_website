@@ -1,6 +1,6 @@
 # User story title: Automated Supply Ordering System
 
-## Priority: 40
+## Priority: 50
 Could have:
 An automated module that locates required cleaning supplies based on the requested task and facilitates direct ordering, ensuring that the necessary supplies are acquired without manual intervention.
 
@@ -8,7 +8,7 @@ An automated module that locates required cleaning supplies based on the request
 Any notes on estimation:
 * Aaron: x days
 * Seth: x days
-* Harrison: x days
+* Harrison: 5 days
 
 ## Assumptions (if any):
 - The system is connected to supplier APIs or an in-house purchasing system.

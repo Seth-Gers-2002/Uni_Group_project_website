@@ -1,13 +1,13 @@
 # User story title: Client Self-Booking
 
-## Priority: 20
+## Priority: 15
 A feature that allows clients to book cleaning jobs themselves, providing convenience and streamlining the booking process.
 
 ## Estimation: e.g. 3 days
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 3 days
 
 ## Assumptions (if any):
 - Clients will have access to an intuitive booking interface.

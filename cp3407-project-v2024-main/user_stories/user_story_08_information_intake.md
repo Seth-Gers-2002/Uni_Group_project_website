@@ -17,7 +17,7 @@ A dedicated system/interface where the cleaner can quickly take initial customer
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 3 days
 
 ## Assumptions (if any):
 - The interface will focus on capturing the most critical fields (name, contact, and a brief job description).

@@ -7,7 +7,7 @@ A feature that shows which jobs have been assigned and to whom.
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 2 days
 
 ## Assumptions (if any):
 - Assignments are updated in real-time.

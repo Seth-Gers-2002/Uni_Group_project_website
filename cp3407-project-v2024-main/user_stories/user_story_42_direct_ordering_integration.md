@@ -1,6 +1,6 @@
 # User story title: Supply Tracker – Direct Ordering Integration
 
-## Priority: 50
+## Priority: 40
 Could have:
 A feature that allows ordering supplies directly into the inventory system, automating re-stocking when supplies run low.
 
@@ -8,7 +8,7 @@ A feature that allows ordering supplies directly into the inventory system, auto
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 4 days
 
 ## Assumptions (if any):
 - The system is integrated with supplier APIs or in-house purchasing modules.

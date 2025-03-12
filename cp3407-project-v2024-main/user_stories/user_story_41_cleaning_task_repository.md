@@ -8,7 +8,7 @@ A tab or section dedicated to storing all cleaning tasks, with fields for task d
 Any notes on estimation:
 * Aaron: x days
 * Seth: x days
-* Harrison: x days
+* Harrison: 3 days 
 
 ## Assumptions (if any):
 - Every cleaning task has a unique identifier and is stored with descriptive details.

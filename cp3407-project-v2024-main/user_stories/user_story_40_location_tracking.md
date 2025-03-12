@@ -1,6 +1,6 @@
 # User story title: Supply Tracker – Location Tracking
 
-## Priority: 40
+## Priority: 30
 Could have:
 A feature that shows the physical location and access details for each supply item so that the cleaner can easily identify where supplies are stored and retrieve them quickly.
 
@@ -8,7 +8,7 @@ A feature that shows the physical location and access details for each supply it
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 2 days
 
 ## Assumptions (if any):
 - Each supply item has an associated location attribute in the inventory system.
