@@ -1,85 +1,102 @@
-User Story Summary
 Priority 10:
-10: Show current deals
+#1: Show current deals
 
-10: Storage System
+#3: Storage System
 
-10: Job Intake Form
+#5: Job Intake Form
 
-10: Basic Login Functionality
+#8: Customer Information Intake System
 
-10: Customer Information Intake System
+#10: Basic Login Functionality
 
-10: Supervisor Dashboard Overview
+#16: Supervisor Dashboard Overview
 
-10: Customer Appointment Confirmation & Reminders
+#19: Customer Appointment Confirmation & Reminders
 
-10: Service Provider Security Check
+#26: Service Provider Security Check
 
-10: Display Job Opportunities
+#34: Display Job Opportunities
 
 Priority 15:
-15: Multi-Factor Authentication
+#14: In-app Chat Support
 
-15: Client Self-Booking
+#27: Multi-Factor Authentication
 
-15: Copy Address for Navigation
+#33: Client Self-Booking
 
-15: Comprehensive Customer Information Collection System
+#37: Copy Address for Navigation
 
-15: Streamlined Login Experience
+#38: Comprehensive Customer Information Collection System
 
 Priority 20:
-20: Hazard Intake
+#4: Hazard Intake
 
-20: Job Board
+#6: Job Board
 
-20: Cleaning Supply Inventory
+#9: Cleaning Supply Inventory
 
-20: Map to Location
+#11: Supply Tracker – Inventory Management
 
-20: Client Self Booking for Cleaning Jobs
+#15: Real-Time Job Notifications
 
-20: Supply Tracker – Inventory Management
+#17: Job Issue Reporting
 
-20: Display Service Provider Details
+#22: View Analytics
 
-20: View Profile Rating
+#32: Accessing Job Requirements
 
-20: In-app Chat Support
+#35: Show Job Assignments
 
-20: Real-Time Job Notifications
+#39: Streamlined Login Experience
 
-20: Job Issue Reporting
-
-20: View Analytics
-
-20: Cleaning Tasks Repository
-
-20: Accessing Job Requirements
+#41: Cleaning Tasks Repository
 
 Priority 25:
-25: Stock Request Feature
+#29: Stock Request Feature
 
 Priority 30:
-30: Supply Tracker – Location Tracking
+#13: View Profile Rating
 
-30: Employee Onboarding Guide
+#18: Employee Onboarding Guide
 
-30: Customer Rating and Feedback
+#21: Customer Rating and Feedback
 
-30: Show Job Assignments
+#28: Environment Certifications
 
-30: Assign Jobs
+#36: Assign Jobs
 
-30: Environment Certifications
+#40: Supply Tracker – Location Tracking
 
 Priority 40:
-40: Supply Tracker – Direct Ordering Integration
+#7: Map to Location
 
-40: Automated Supply Ordering System
+#12: Display Service Provider Details
+
+#20: Job Performance & Reports
+
+#42: Supply Tracker – Direct Ordering Integration
 
 Priority 50:
-50: Multilingual Support
+#24: Multilingual Support
 
-50: Community Forum 
+#25: Community Forum
+
+#30: Integrated Purchasing & Replenishment System
+
+#43: Supply-Task Correlation
+
+#44: Automated Supply Ordering System
+
+
+## User Story Notes ##
+Customer Information Intake System (#8) vs Comprehensive Customer Information Collection System (#38) Both aim to capture customer data. If not clearly separated into “basic” versus “detailed” scopes, they could duplicate effort or lead to inconsistent data capture.
+
+Basic Login Functionality (#10) vs Streamlined Login Experience (#39) One ensures that users can log in securely, while the other enhances the login process with additional features (e.g., “Remember Me”). They must be clearly segmented as core functionality versus an enhancement layer.
+
+Job Board (#6) vs Show Job Assignments (#35) vs Assign Jobs (#36) Job Board focuses on listing available jobs, whereas Show Job Assignments and Assign Jobs deal with delegation. Without clear roles (e.g., “view-only” vs “admin assignment”), these features may overlap in the UI or backend logic.
+
+Supply Tracker – Inventory Management (#11) vs Supply Tracker – Location Tracking (#40) vs Supply Tracker – Direct Ordering Integration (#42) vs Automated Supply Ordering System (#44) These stories cover different aspects of supply tracking (quantity, physical location, and ordering). They must be modularized so that each handles a distinct function without duplicating data updates or ordering processes.
+
+Display Service Provider Details (#12) vs View Profile Rating (#13) While one shows detailed profiles and the other displays ratings, care should be taken to integrate these so that profiles reflect ratings consistently rather than functioning as completely separate modules.
+
+In-app Chat Support (#14) vs Real-Time Job Notifications (#15) vs Job Issue Reporting (#17) These communications features serve distinct purposes (support chat vs. timely notifications vs. reporting issues). However, if not designed to work together, they might result in overlapping messages or confusing alerts for users
