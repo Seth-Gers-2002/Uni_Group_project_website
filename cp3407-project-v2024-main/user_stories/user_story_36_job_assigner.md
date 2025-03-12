@@ -8,7 +8,7 @@ A feature that allows admins to assign jobs to teams or individual employees.
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 2 days
 
 ## Assumptions (if any):
 - Admins have access to assign jobs.

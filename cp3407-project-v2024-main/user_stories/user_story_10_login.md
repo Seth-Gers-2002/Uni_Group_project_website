@@ -18,7 +18,7 @@ A basic and reliable login page where employees can enter their credentials (ID 
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 2 days
 
 ## Assumptions (if any):
 - Every employee has a unique ID and secure password.

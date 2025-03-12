@@ -1,6 +1,6 @@
 # User story title: Supply-Task Correlation
 
-## Priority: 30
+## Priority: 50
 Could have:
 A feature that allows for the correlation of cleaning supplies to specific cleaning tasks so that when a mess is reported, the system can indicate the exact supplies needed to resolve the issue efficiently.
 
@@ -8,7 +8,7 @@ A feature that allows for the correlation of cleaning supplies to specific clean
 Any notes on estimation:
 * Aaron: x days
 * Seth: x days
-* Harrison: x days
+* Harrison: 5 days
 
 ## Assumptions (if any):
 - There is a predefined mapping between cleaning tasks and the supplies typically required to address them.

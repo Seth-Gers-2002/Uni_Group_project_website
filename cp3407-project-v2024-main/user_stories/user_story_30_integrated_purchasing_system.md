@@ -8,7 +8,7 @@ An integrated system that enables admins to not only process supply requests but
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 3 days
 
 ## Assumptions (if any):
 - The system has access to third-party payment gateways and supplier APIs.

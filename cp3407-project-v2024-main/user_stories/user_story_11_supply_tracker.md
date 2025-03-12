@@ -11,7 +11,7 @@ priorities:
 
 # User story title: Supply Tracker – Inventory Management
 
-## Priority: 30
+## Priority: 20
 Could have:
 A dedicated tab that displays the list and quantities of supplies available, with indicators for low stock, so that cleaners can monitor inventory levels and know when something is missing.
 
@@ -19,7 +19,7 @@ A dedicated tab that displays the list and quantities of supplies available, wit
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 1 day
 
 ## Assumptions (if any):
 - There is an integrated inventory database that logs the quantity of each supply.

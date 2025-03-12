@@ -7,7 +7,7 @@ A fully detailed job intake sheet that has all necessary information points.
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 3 days 
 
 ## Assumptions (if any):
 - Admin users will have access to create and edit the form.

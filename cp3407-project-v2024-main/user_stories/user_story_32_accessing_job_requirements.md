@@ -7,7 +7,7 @@ An easy-to-access system for retrieving job requirement information.
 Any notes on estimation:
 * Aaron: x
 * Seth: x 
-* Harrison: x
+* Harrison: 5 days
 
 ## Assumptions (if any):
 - Admin users will have access to view and retrieve job data.

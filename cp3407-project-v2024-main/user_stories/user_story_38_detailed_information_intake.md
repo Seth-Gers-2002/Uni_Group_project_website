@@ -1,6 +1,6 @@
 # User story title: Comprehensive Customer Information Collection System
 
-## Priority: 20
+## Priority: 15
 Could have:
 A more detailed system that collects all the required customer information, ensuring that nothing is missed. This will serve both the cleaner and admin in planning and executing the job properly.
 
@@ -8,7 +8,7 @@ A more detailed system that collects all the required customer information, ensu
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 2 days 
 
 ## Assumptions (if any):
 - The system will expand on the basic intake by including secondary fields such as service preferences, special instructions, and scheduling details.

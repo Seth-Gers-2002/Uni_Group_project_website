@@ -1,6 +1,6 @@
 # User story title: Stock Request Feature
 
-## Priority: 20
+## Priority: 25
 Could have:
 Implement a mechanism that enables users (employees or even the admin) to request additional stock. This ensures that when supply levels are low, timely replenishment can be initiated.
 
@@ -8,7 +8,7 @@ Implement a mechanism that enables users (employees or even the admin) to reques
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 1 day
 
 ## Assumptions (if any):
 - Only authorized users can submit a request.

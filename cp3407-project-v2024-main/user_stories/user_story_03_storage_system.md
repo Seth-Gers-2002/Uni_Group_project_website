@@ -12,7 +12,7 @@ The addition of a storage system is mandatory. Managing supplies, jobs, location
 Any notes on estimation:
 * Aaron: x
 * Seth: x 
-* Harrison: x
+* Harrison: 3 days
 
 ## Assumptions (if any):
 - The inventory database will be accessible to all authorized admin users.

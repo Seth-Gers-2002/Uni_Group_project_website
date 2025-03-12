@@ -18,7 +18,7 @@ A tab dedicated to displaying job opportunities, availability, and assignment.
 Any notes on estimation:
 * Aaron: x
 * Seth: x
-* Harrison: x
+* Harrison: 4 days
 
 ## Assumptions (if any):
 - The job board will be accessible to all professional cleaners.
