@@ -1,85 +1,88 @@
-User Story Summary
 Priority 10:
-10: Show current deals
+#1: Show current deals
 
-10: Storage System
+#3: Storage System
 
-10: Job Intake Form
+#5: Job Intake Form
 
-10: Basic Login Functionality
+#8: Customer Information Intake System
 
-10: Customer Information Intake System
+#10: Basic Login Functionality
 
-10: Supervisor Dashboard Overview
+#16: Supervisor Dashboard Overview
 
-10: Customer Appointment Confirmation & Reminders
+#19: Customer Appointment Confirmation & Reminders
 
-10: Service Provider Security Check
+#26: Service Provider Security Check
 
-10: Display Job Opportunities
+#34: Display Job Opportunities
 
 Priority 15:
-15: Multi-Factor Authentication
+#14: In-app Chat Support
 
-15: Client Self-Booking
+#27: Multi-Factor Authentication
 
-15: Copy Address for Navigation
+#33: Client Self-Booking
 
-15: Comprehensive Customer Information Collection System
+#37: Copy Address for Navigation
 
-15: Streamlined Login Experience
+#38: Comprehensive Customer Information Collection System
 
 Priority 20:
-20: Hazard Intake
+#4: Hazard Intake
 
-20: Job Board
+#6: Job Board
 
-20: Cleaning Supply Inventory
+#9: Cleaning Supply Inventory
 
-20: Map to Location
+#11: Supply Tracker – Inventory Management
 
-20: Client Self Booking for Cleaning Jobs
+#15: Real-Time Job Notifications
 
-20: Supply Tracker – Inventory Management
+#17: Job Issue Reporting
 
-20: Display Service Provider Details
+#22: View Analytics
 
-20: View Profile Rating
+#32: Accessing Job Requirements
 
-20: In-app Chat Support
+#35: Show Job Assignments
 
-20: Real-Time Job Notifications
+#39: Streamlined Login Experience
 
-20: Job Issue Reporting
-
-20: View Analytics
-
-20: Cleaning Tasks Repository
-
-20: Accessing Job Requirements
+#41: Cleaning Tasks Repository
 
 Priority 25:
-25: Stock Request Feature
+#29: Stock Request Feature
 
 Priority 30:
-30: Supply Tracker – Location Tracking
+#13: View Profile Rating
 
-30: Employee Onboarding Guide
+#18: Employee Onboarding Guide
 
-30: Customer Rating and Feedback
+#21: Customer Rating and Feedback
 
-30: Show Job Assignments
+#28: Environment Certifications
 
-30: Assign Jobs
+#36: Assign Jobs
 
-30: Environment Certifications
+#40: Supply Tracker – Location Tracking
 
 Priority 40:
-40: Supply Tracker – Direct Ordering Integration
+#7: Map to Location
 
-40: Automated Supply Ordering System
+#12: Display Service Provider Details
+
+#20: Job Performance & Reports
+
+#42: Supply Tracker – Direct Ordering Integration
 
 Priority 50:
-50: Multilingual Support
+#24: Multilingual Support
 
-50: Community Forum 
+#25: Community Forum
+
+#30: Integrated Purchasing & Replenishment System
+
+#43: Supply-Task Correlation
+
+#44: Automated Supply Ordering System
