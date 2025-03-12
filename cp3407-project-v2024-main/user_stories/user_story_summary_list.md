@@ -86,3 +86,17 @@ Priority 50:
 #43: Supply-Task Correlation
 
 #44: Automated Supply Ordering System
+
+
+## User Story Notes ##
+Customer Information Intake System (#8) vs Comprehensive Customer Information Collection System (#38) Both aim to capture customer data. If not clearly separated into “basic” versus “detailed” scopes, they could duplicate effort or lead to inconsistent data capture.
+
+Basic Login Functionality (#10) vs Streamlined Login Experience (#39) One ensures that users can log in securely, while the other enhances the login process with additional features (e.g., “Remember Me”). They must be clearly segmented as core functionality versus an enhancement layer.
+
+Job Board (#6) vs Show Job Assignments (#35) vs Assign Jobs (#36) Job Board focuses on listing available jobs, whereas Show Job Assignments and Assign Jobs deal with delegation. Without clear roles (e.g., “view-only” vs “admin assignment”), these features may overlap in the UI or backend logic.
+
+Supply Tracker – Inventory Management (#11) vs Supply Tracker – Location Tracking (#40) vs Supply Tracker – Direct Ordering Integration (#42) vs Automated Supply Ordering System (#44) These stories cover different aspects of supply tracking (quantity, physical location, and ordering). They must be modularized so that each handles a distinct function without duplicating data updates or ordering processes.
+
+Display Service Provider Details (#12) vs View Profile Rating (#13) While one shows detailed profiles and the other displays ratings, care should be taken to integrate these so that profiles reflect ratings consistently rather than functioning as completely separate modules.
+
+In-app Chat Support (#14) vs Real-Time Job Notifications (#15) vs Job Issue Reporting (#17) These communications features serve distinct purposes (support chat vs. timely notifications vs. reporting issues). However, if not designed to work together, they might result in overlapping messages or confusing alerts for users
