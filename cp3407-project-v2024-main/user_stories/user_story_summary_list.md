@@ -1,46 +1,85 @@
-# User Story Summary
+User Story Summary
+Priority 10:
+10: Show current deals
 
-## Priority 10:
-* 10: Display job opportunities 
-* 10: User log in
-* 10: System for taking customer information
-* 10: The ability to copy the address for gps and maps
-* 10: Form to fill out about the job requirements
-* 10: Storing job requirements input information
-* 10: Add a hazards and complications section to form
-* 10: System for storing resources and supplies
-* 10: Supervisor dashboard overview
-* 10: Customer appointment confirmation & reminders
-* 10: Service provider security check
-* 15: In-app chat support
-* 15: Multi-Factor authentication
+10: Storage System
 
-## Priority 20
-* 20: The ability to request for more stock
-* 20: Easy to access job requirements information
-* 20: Client self booking for cleaning jobs
-* 20: Show who has the available job
-* 20: Have a forms section for companies and cleaners so they can upload documents for staff access
-* 20: Real-Time job notifications
-* 20: Job issue reporting
-* 20: View analytics (number of jobs, job growth, revenue etc.)
+10: Job Intake Form
 
-## Priority 30
-* 30: Add a forms section that has cleaning tips
-* 30: Show selection and delegate jobs.
-* 30: Correlating cleaning supplies to cleaning tasks
-* 30: Customer rating and feedback
-* 30: Employee onboarding guide
-* 30: Urgent jobs
-* 30: Environment certifications
+10: Basic Login Functionality
 
-## Priority 40
-* 40: Being able to track where the supplies are and how to access them 
-* 40: Automatically locate and buy cleaning supplies depending on the requested task.
-* 40: A pre-image of the location from google maps on website
-* 40: Display service provider details
-* 40: Job performance & reports
+10: Customer Information Intake System
 
-## Priority 50
-* 50: Multilingual support
-* 50: Community forum
+10: Supervisor Dashboard Overview
+
+10: Customer Appointment Confirmation & Reminders
+
+10: Service Provider Security Check
+
+10: Display Job Opportunities
+
+Priority 15:
+15: Multi-Factor Authentication
+
+15: Client Self-Booking
+
+15: Copy Address for Navigation
+
+15: Comprehensive Customer Information Collection System
+
+15: Streamlined Login Experience
+
+Priority 20:
+20: Hazard Intake
+
+20: Job Board
+
+20: Cleaning Supply Inventory
+
+20: Map to Location
+
+20: Client Self Booking for Cleaning Jobs
+
+20: Supply Tracker – Inventory Management
+
+20: Display Service Provider Details
+
+20: View Profile Rating
+
+20: In-app Chat Support
+
+20: Real-Time Job Notifications
+
+20: Job Issue Reporting
+
+20: View Analytics
+
+20: Cleaning Tasks Repository
+
+20: Accessing Job Requirements
+
+Priority 25:
+25: Stock Request Feature
+
+Priority 30:
+30: Supply Tracker – Location Tracking
+
+30: Employee Onboarding Guide
+
+30: Customer Rating and Feedback
+
+30: Show Job Assignments
+
+30: Assign Jobs
+
+30: Environment Certifications
+
+Priority 40:
+40: Supply Tracker – Direct Ordering Integration
+
+40: Automated Supply Ordering System
+
+Priority 50:
+50: Multilingual Support
+
+50: Community Forum 
