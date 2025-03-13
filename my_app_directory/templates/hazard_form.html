@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}Potential Hazards{% endblock %}
+
+{% block content %}
+<h1>Potential Hazards:</h1>
+<form action="{{ url_for('hazard_management.submit_hazard') }}" method="post">
+    <p>
+        <label for="hazard_type">Hazard Type:</label>
+        <input type="text" id="hazard_type" name="hazard_type" required>
+    </p>
+    <p>
+        <label for="hazard_description">Hazard Description:</label>
+        <textarea id="hazard_description" name="hazard_description" required></textarea>
+    </p>
+    <p>
+        <label for="hazard_location">Hazard Location:</label>
+        <input type="text" id="hazard_location" name="hazard_location" required>
+    </p>
+    <p>
+        <label for="risk_level">Risk Level:</label>
+        <select id="risk_level" name="risk_level">
+            <option value="low">Low</option>
+            <option value="moderate">Moderate</option>
+            <option value="high">High</option>
+        </select>
+    </p>
+    <p>
+        <label for="likelihood">Likelihood:</label>
+        <select id="likelihood" name="likelihood">
+            <option value="rare">Rare</option>
+            <option value="possible">Possible</option>
+            <option value="likely">Likely</option>
+        </select>
+    </p>
+    <p>
+        <label for="severity">Severity:</label>
+        <select id="severity" name="severity">
+            <option value="minor">Minor</option>
+            <option value="moderate">Moderate</option>
+            <option value="severe">Severe</option>
+        </select>
+    </p>
+    <p>
+        <label for="potential_impact">Potential Impact:</label>
+        <textarea id="potential_impact" name="potential_impact"></textarea>
+    </p>
+    <p>
+        <label for="exposure_details">Exposure Details:</label>
+        <textarea id="exposure_details" name="exposure_details"></textarea>
+    </p>
+    <p>
+        <label for="recommended_equipment">Recommended Equipment:</label>
+        <textarea id="recommended_equipment" name="recommended_equipment"></textarea>
+    </p>
+    <p>
+        <button type="submit">Submit Hazard</button>
+    </p>
+</form>
+{% endblock %}

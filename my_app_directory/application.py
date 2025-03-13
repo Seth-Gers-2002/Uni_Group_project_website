@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from config import Config
 from models import db
-from routes import inventory_bp
+from routes.__init__ import hazard_management_bp  # Import the new blueprint
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -9,11 +9,9 @@ app.config.from_object(Config)
 db.init_app(app)
 
 with app.app_context():
-    flask db init
-    flask db migrate - m "Initial migration."
-    flask db upgrade
+    db.create_all()
 
-app.register_blueprint(inventory_bp)
+app.register_blueprint(hazard_management_bp)
 
 @app.route('/')
 def index():

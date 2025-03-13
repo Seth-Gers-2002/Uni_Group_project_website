@@ -13,7 +13,7 @@ def list_inventory():
 def add_inventory():
     if request.method == 'POST':
         name = request.form['name']
-        quantity = request.form.get('quantity', 0)
+        quantity = int(request.form.get('quantity', '0') or '0')
         location = request.form.get('location', '')
         job_association = request.form.get('job_association', '')
         cleaning_method = request.form.get('cleaning_method', '')

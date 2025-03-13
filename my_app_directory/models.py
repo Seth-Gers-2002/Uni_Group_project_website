@@ -1,17 +1,18 @@
-"""Define database models"""
-
-# models.py
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-class InventoryItem(db.Model):
+class Hazard(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(80), nullable=False)
-    quantity = db.Column(db.Integer, default=0)
-    location = db.Column(db.String(120))
-    job_association = db.Column(db.String(120))
-    cleaning_method = db.Column(db.String(120))
+    hazard_type = db.Column(db.String(120), nullable=False)
+    hazard_description = db.Column(db.Text, nullable=False)
+    hazard_location = db.Column(db.String(120), nullable=False)
+    risk_level = db.Column(db.String(50), nullable=False)
+    likelihood = db.Column(db.String(50), nullable=False)
+    severity = db.Column(db.String(50), nullable=False)
+    potential_impact = db.Column(db.Text, nullable=True)
+    exposure_details = db.Column(db.Text, nullable=True)
+    recommended_equipment = db.Column(db.Text, nullable=True)
 
     def __repr__(self):
-        return f"<InventoryItem {self.name}>"
+        return f"<Hazard {self.hazard_type}>"
