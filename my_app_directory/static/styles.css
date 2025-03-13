@@ -1,0 +1,43 @@
+/* A simple grid for the four big action buttons */
+.stock-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* spacing between cards */
+  max-width: 800px;
+  margin: 0 auto; /* center the grid */
+  padding: 20px;
+}
+
+.stock-card {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 30px 20px;
+  transition: box-shadow 0.2s ease;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.stock-card:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.stock-card a {
+  text-decoration: none;
+  color: inherit; /* keep text color consistent */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stock-icon {
+  margin-bottom: 10px;
+}
+
+.stock-icon i {
+  color: #333; /* icon color, adjust as needed */
+}
+
+.stock-label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
