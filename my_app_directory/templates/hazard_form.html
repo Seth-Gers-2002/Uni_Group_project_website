@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}Hazard Form{% endblock %}
+
+{% block content %}
+<h2>Potential Hazards:</h2>
+<form action="{{ url_for('hazard_management.hazard_form') }}" method="post">
+    <label>Hazard Type:</label>
+    <input type="text" name="hazard_type" required>
+
+    <label>Hazard Description:</label>
+    <textarea name="hazard_description" required></textarea>
+
+    <label>Hazard Location:</label>
+    <input type="text" name="hazard_location" required>
+
+    <label>Risk Level:</label>
+    <select name="risk_level">
+        <option value="low">Low</option>
+        <option value="moderate">Moderate</option>
+        <option value="high">High</option>
+    </select>
+
+    <label>Likelihood:</label>
+    <select name="likelihood">
+        <option value="rare">Rare</option>
+        <option value="possible">Possible</option>
+        <option value="likely">Likely</option>
+    </select>
+
+    <label>Severity:</label>
+    <select name="severity">
+        <option value="minor">Minor</option>
+        <option value="moderate">Moderate</option>
+        <option value="severe">Severe</option>
+    </select>
+
+    <label>Potential Impact:</label>
+    <textarea name="potential_impact"></textarea>
+
+    <label>Exposure Details:</label>
+    <textarea name="exposure_details"></textarea>
+
+    <label>Recommended Equipment:</label>
+    <textarea name="recommended_equipment"></textarea>
+
+    <button type="submit">Submit Hazard</button>
+</form>
+{% endblock %}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My App{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="logo">Logo<br><small>Manager</small></div>
+        <a href="{{ url_for('index') }}">Dashboard</a>
+        <div class="dropdown">
+            <button class="dropbtn">Management ▼</button>
+            <div class="dropdown-content">
+                <a href="{{ url_for('hazard_management.hazard_form') }}">Hazard Form</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Equipment ▼</button>
+            <div class="dropdown-content">
+                <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
+            </div>
+        </div>
+        <a href="#">Documentation</a>
+        <a href="#">Account</a>
+    </nav>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

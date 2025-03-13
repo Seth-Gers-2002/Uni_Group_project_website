@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Dashboard</title>
+</head>
+<body>
+    <h1>Inventory Dashboard</h1>
+    <p>
+        <a href="{{ url_for('inventory.add_inventory') }}">Add New Inventory Item</a>
+    </p>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Location</th>
+            <th>Job Association</th>
+            <th>Cleaning Method</th>
+            <th>Actions</th>
+        </tr>
+        {% for item in items %}
+        <tr>
+            <td>{{ item.name }}</td>
+            <td>{{ item.quantity }}</td>
+            <td>{{ item.location }}</td>
+            <td>{{ item.job_association }}</td>
+            <td>{{ item.cleaning_method }}</td>
+            <td>
+                <form action="{{ url_for('inventory.remove_inventory', item_id=item.id) }}" method="post" style="display:inline;">
+                    <button type="submit">Remove</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
