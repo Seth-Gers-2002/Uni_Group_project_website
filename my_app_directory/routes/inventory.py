@@ -4,8 +4,8 @@ from models import db, InventoryItem
 
 @inventory_bp.route('/inventory_dashboard')
 def inventory_dashboard():
-    # The main “Stock Manager” page with big icons for add/remove/request
-    return render_template("inventory_dashboard.html")
+    items = InventoryItem.query.all()
+    return render_template("inventory_dashboard.html", items=items)
 
 @inventory_bp.route('/inventory/add', methods=['GET', 'POST'])
 def add_inventory():
@@ -25,6 +25,9 @@ def add_inventory():
         )
         db.session.add(new_item)
         db.session.commit()
+
+        # Debug print to check if the item is saved
+        print(f"DEBUG: Added item: {new_item}")
 
         return redirect(url_for('inventory.inventory_dashboard'))
     return render_template("add_inventory.html")

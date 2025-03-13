@@ -3,6 +3,7 @@
 {% block title %}Hazard Form{% endblock %}
 
 {% block content %}
+<a href="{{ url_for('index') }}">🏠 Home</a>
 <h2>Potential Hazards:</h2>
 <form action="{{ url_for('hazard_management.hazard_form') }}" method="post">
     <label>Hazard Type:</label>
