@@ -2,43 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Hazard Management{% endblock %}</title>
+    <title>{% block title %}My App{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <style>
-        /* Inline Styles (You can move this to styles.css if needed) */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 15px;
-            display: flex;
-            align-items: center;
-        }
-        nav a {
-            color: #fff;
-            margin-right: 20px;
-            text-decoration: none;
-        }
-        nav .logo {
-            margin-right: auto;
-        }
-    </style>
 </head>
 <body>
     <nav>
-        <div class="logo">LOGO</div>
-        <div>Manager</div>
-        <a href="#">Dashboard</a>
-        <a href="#">Management</a>
-        <a href="#">Equipment</a>
+        <div class="logo">Logo<br><small>Manager</small></div>
+        <a href="{{ url_for('index') }}">Dashboard</a>
+        <div class="dropdown">
+            <button class="dropbtn">Management ▼</button>
+            <div class="dropdown-content">
+                <a href="{{ url_for('hazard_management.hazard_form') }}">Hazard Form</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Equipment ▼</button>
+            <div class="dropdown-content">
+                <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
+            </div>
+        </div>
         <a href="#">Documentation</a>
         <a href="#">Account</a>
     </nav>
+
     <div class="content">
         {% block content %}{% endblock %}
     </div>

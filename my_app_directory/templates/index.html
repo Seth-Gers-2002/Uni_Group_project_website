@@ -1,15 +1,8 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 
-<head>
-	<title>FlaskTest</title>
-</head>
+{% block title %}Home{% endblock %}
 
-
-{% block body %}
-
-	<h1>this is overriding the template</h1>
-<h2>this is currently the landing page, will be a login at some point</h2>
-
-
+{% block content %}
+    <h1>Welcome to the Management Dashboard</h1>
+    <p>This is your home page.</p>
 {% endblock %}
-
