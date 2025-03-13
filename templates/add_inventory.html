@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Inventory Item</title>
+</head>
+<body>
+    <h1>Add Inventory Item</h1>
+    <form action="{{ url_for('inventory.add_inventory') }}" method="post">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required>
+        </p>
+        <p>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location">
+        </p>
+        <p>
+            <label for="job_association">Job Association:</label>
+            <input type="text" id="job_association" name="job_association">
+        </p>
+        <p>
+            <label for="cleaning_method">Cleaning Method:</label>
+            <input type="text" id="cleaning_method" name="cleaning_method">
+        </p>
+        <p>
+            <button type="submit">Add Item</button>
+        </p>
+    </form>
+    <p><a href="{{ url_for('inventory.list_inventory') }}">Back to Inventory Dashboard</a></p>
+</body>
+</html>
