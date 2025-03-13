@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Inventory Dashboard</title>
-</head>
+{% extends "base.html" %}
+
+{% block title %}Inventory Dashboard{% endblock %}
+
+{% block content %}
 <body>
     <h1>Inventory Dashboard</h1>
     <p>
@@ -33,4 +33,5 @@
         {% endfor %}
     </table>
 </body>
-</html>
+{% endblock %}
+
