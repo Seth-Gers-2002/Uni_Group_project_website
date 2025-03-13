@@ -1,16 +1,17 @@
 from flask import Flask, render_template
 from config import Config
 from models import db
-from routes.inventory import inventory_bp
+from routes import inventory_bp
 
 app = Flask(__name__)
 app.config.from_object(Config)
 
 db.init_app(app)
 
-# Initialize the database before serving requests
 with app.app_context():
-    db.create_all()
+    flask db init
+    flask db migrate - m "Initial migration."
+    flask db upgrade
 
 app.register_blueprint(inventory_bp)
 

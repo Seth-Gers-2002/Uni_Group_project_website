@@ -1,7 +1,8 @@
 # routes/__init__.py
 from flask import Blueprint
 
-# Initialize the blueprint for routes
+# Define the blueprint just once for the routes package.
 inventory_bp = Blueprint('inventory', __name__)
 
-from .inventory import list_inventory, add_inventory, remove_inventory, request_inventory, manage_requests
+# Import the rest of the routes so they are registered with this blueprint.
+from .inventory import *
