@@ -17,6 +17,8 @@ Priority 10:
 
 #34: Display Job Opportunities
 
+#45: Landing Page 
+
 Priority 15:
 #14: In-app Chat Support
 
