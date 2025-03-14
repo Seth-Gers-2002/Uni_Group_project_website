@@ -1,69 +1,76 @@
-{% extends "base.html" %}
-{% block title %}Job Intake Form{% endblock %}
-
-{% block content %}
-<h2>Job Intake Form</h2>
-<form action="{{ url_for('job.job_intake') }}" method="POST">
-    <!-- Left Column -->
-    <label for="job_title">Job Title:</label>
-    <input type="text" id="job_title" name="job_title">
-
-    <label for="date">Date:</label>
-    <input type="date" id="date" name="date">
-
-    <label for="client_name">Client Full Name:</label>
-    <input type="text" id="client_name" name="client_name">
-
-    <label for="phone_number">Phone Number:</label>
-    <input type="tel" id="phone_number" name="phone_number">
-
-    <label for="email">Email Address:</label>
-    <input type="email" id="email" name="email">
-
-    <label for="address">Address:</label>
-    <input type="text" id="address" name="address">
-
-    <label for="property_type">Property Type:</label>
-    <select id="property_type" name="property_type">
-        <option value="residential">Residential</option>
-        <option value="commercial">Commercial</option>
-    </select>
-
-    <label for="property_size">Property Size:</label>
-    <select id="property_size" name="property_size">
-        <option value="small">Small</option>
-        <option value="medium">Medium</option>
-        <option value="large">Large</option>
-    </select>
-
-    <!-- Right Column -->
-    <label for="cleaning_instructions">Cleaning Instructions:</label>
-    <textarea id="cleaning_instructions" name="cleaning_instructions"></textarea>
-
-    <label for="payment_method">Payment Method:</label>
-    <select id="payment_method" name="payment_method">
-        <option value="mastercard">MasterCard</option>
-        <option value="visa">Visa</option>
-        <option value="paypal">PayPal</option>
-    </select>
-
-    <label for="payment_details">Payment Details:</label>
-    <input type="text" id="payment_details" name="payment_details">
-
-    <label for="pets_on_premise">Pets On Premise:</label>
-    <input type="text" id="pets_on_premise" name="pets_on_premise">
-
-    <div>
-        <span>Are There Any Hazards?</span>
-        <label><input type="radio" name="hazards" value="yes">Yes</label>
-        <label><input type="radio" name="hazards" value="no" checked>No</label>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Job Intake Form{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <nav>
+    <a href="{{ url_for('index') }}">🏠 Home</a>
+    <a href="{{ url_for('index') }}">Dashboard</a>
+    <div class="dropdown">
+      <button class="dropbtn">Management ▼</button>
+      <div class="dropdown-content">
+        <a href="{{ url_for('hazard_management.hazard_form') }}">Hazard Form</a>
+      </div>
     </div>
+    <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
+    <a href="{{ url_for('job.job_intake') }}">Job Intake Form</a>
+    <a href="#">Documentation</a>
+    <a href="#">Account</a>
+  </nav>
 
-    <div>
-        <label for="tos_ack">Terms of Service Acknowledgement:</label>
-        <input type="checkbox" id="tos_ack" name="tos_ack">
-    </div>
+  <div class="container">
+    <h2>Job Intake Form</h2>
 
-    <button type="submit">Submit</button>
-</form>
-{% endblock %}
+    <!-- Display flashed messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-container">
+          {% for category, message in messages %}
+            <div class="flash-message {{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    <!-- Job Intake Form -->
+    <form id="jobIntakeForm" method="POST" action="{{ url_for('job.job_intake') }}">
+      <div class="form-group">
+        <label for="job_title">Job Title:</label>
+        <input type="text" id="job_title" name="job_title" value="{{ form.job_title if form else '' }}" required>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" value="{{ form.date if form else '' }}" required>
+      </div>
+
+      <div class="form-group">
+        <label for="client_name">Client Full Name:</label>
+        <input type="text" id="client_name" name="client_name" value="{{ form.client_name if form else '' }}" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number" value="{{ form.phone_number if form else '' }}" pattern="[0-9]{10}" title="Enter a 10-digit phone number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" value="{{ form.email if form else '' }}" required>
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required>{{ form.address if form else '' }}</textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
