@@ -4,6 +4,12 @@
 
 {% block content %}
 <h2>Add Inventory Item</h2>
+
+<style>
+
+
+</style>
+
 <form action="{{ url_for('inventory.add_inventory') }}" method="post">
     <label>Name:</label>
     <input type="text" name="name" required>

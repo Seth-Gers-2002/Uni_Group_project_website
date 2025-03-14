@@ -17,6 +17,7 @@ def create_app():
     app.register_blueprint(inventory_bp)
     app.register_blueprint(job_bp)
 
+
     @app.route('/')
     def index():
         # Renders the home/landing page

@@ -3,6 +3,11 @@
 {% block title %}Request Inventory{% endblock %}
 
 {% block content %}
+
+<style>
+
+</style>
+
 <h2>Send Stock Request</h2>
 <form action="{{ url_for('inventory.request_inventory') }}" method="post">
     <!-- Fields for requesting stock, e.g. item name, quantity, reason, etc. -->
