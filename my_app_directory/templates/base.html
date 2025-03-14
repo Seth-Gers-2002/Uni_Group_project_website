@@ -46,12 +46,7 @@
                 <a href="{{ url_for('hazard_management.hazard_form') }}">Hazard Form</a>
             </div>
         </div>
-        <div class="dropdown">
-            <button class="dropbtn">Equipment ▼</button>
-            <div class="dropdown-content">
-                <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
-            </div>
-        </div>
+        <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
         <a href="#">Documentation</a>
         <a href="#">Account</a>
     </nav>
