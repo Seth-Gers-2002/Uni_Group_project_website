@@ -6,19 +6,64 @@ body {
   padding: 0;
 }
 
-/* Navigation styling */
+/* Navigation Bar */
 nav {
-  background-color: #343a40;
-  color: white;
-  padding: 10px;
-  text-align: center;
+    background-color: #343a40; /* Dark gray background */
+    padding: 0.5rem 1rem;     /* Spacing around nav items */
+    display: flex;            /* So items can be aligned horizontally */
+    align-items: center;      /* Vertically center nav items */
+    justify-content: flex-start; /* Position items at the left (or space-between, etc.) */
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
+    color: #ffffff;           /* White text */
+    text-decoration: none;    /* Remove underline */
+    margin: 0 1rem;           /* Spacing between links */
+    font-weight: 500;
 }
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: transparent; /* So it blends with the nav background */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0 1rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 140px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show the dropdown on hover */
+}
+
 
 /* Container for the form */
 .container {
