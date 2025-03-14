@@ -39,6 +39,7 @@ A detailed intake sheet that prompts users to enter all relevant information rel
 
 # UI Design:
 - A clean, intuitive interface with labeled input fields for job requirements.
+![User Story 5 Wireframe](user_story_wireframes/User_Story_5_Wireframe.png)
 
 # Completed:
 (Not completed)

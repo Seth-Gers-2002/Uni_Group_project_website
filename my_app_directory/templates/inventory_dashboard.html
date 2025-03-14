@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Stock Manager{% endblock %}
+
+{% block content %}
+<h2>Stock Manager</h2>
+
+<!-- A simple grid layout with two rows, two columns -->
+<div class="stock-grid">
+    <!-- Add Stock Card -->
+    <div class="stock-card">
+        <a href="{{ url_for('inventory.add_inventory') }}">
+            <div class="stock-icon">
+                <!-- If using a custom icon file:
+                     <img src="{{ url_for('static', filename='icons/add_stock.png') }}" alt="Add Stock"> -->
+                <!-- If using Font Awesome icon (see step #2 for link to CSS): -->
+                <i class="fas fa-plus-circle fa-3x"></i>
+            </div>
+            <div class="stock-label">Add Stock</div>
+        </a>
+    </div>
+
+    <!-- Remove Stock Card -->
+    <div class="stock-card">
+        <a href="{{ url_for('inventory.remove_inventory') }}">
+            <div class="stock-icon">
+                <!-- <img src="{{ url_for('static', filename='icons/remove_stock.png') }}" alt="Remove Stock"> -->
+                <i class="fas fa-times-circle fa-3x"></i>
+            </div>
+            <div class="stock-label">Remove Stock</div>
+        </a>
+    </div>
+
+    <!-- Send Stock Request Card -->
+    <div class="stock-card">
+        <a href="{{ url_for('inventory.request_inventory') }}">
+            <div class="stock-icon">
+                <!-- <img src="{{ url_for('static', filename='icons/request_stock.png') }}" alt="Request Stock"> -->
+                <i class="fas fa-paper-plane fa-3x"></i>
+            </div>
+            <div class="stock-label">Send Stock Request</div>
+        </a>
+    </div>
+
+    <!-- Manage Stock Requests Card -->
+    <div class="stock-card">
+        <a href="{{ url_for('inventory.manage_requests') }}">
+            <div class="stock-icon">
+                <!-- <img src="{{ url_for('static', filename='icons/manage_requests.png') }}" alt="Manage Requests"> -->
+                <i class="fas fa-users fa-3x"></i>
+            </div>
+            <div class="stock-label">Manage Stock Requests</div>
+        </a>
+    </div>
+</div>
+{% endblock %}
+

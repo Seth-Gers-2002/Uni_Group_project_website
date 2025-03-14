@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Request Inventory{% endblock %}
+
+{% block content %}
+<h2>Send Stock Request</h2>
+<form action="{{ url_for('inventory.request_inventory') }}" method="post">
+    <!-- Fields for requesting stock, e.g. item name, quantity, reason, etc. -->
+    <label>Item Name:</label>
+    <input type="text" name="item_name">
+    
+    <label>Quantity:</label>
+    <input type="number" name="quantity">
+
+    <button type="submit">Send Request</button>
+</form>
+{% endblock %}

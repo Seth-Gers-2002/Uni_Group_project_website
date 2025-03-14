@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Remove Inventory{% endblock %}
+
+{% block content %}
+<h2>Remove Inventory</h2>
+<form action="{{ url_for('inventory.remove_inventory') }}" method="post">
+    <label>Select an item to remove:</label>
+    <select name="item_id">
+        {% for item in items %}
+            <option value="{{ item.id }}">{{ item.name }} (Qty: {{ item.quantity }})</option>
+        {% endfor %}
+    </select>
+    <button type="submit">Remove Item</button>
+</form>
+{% endblock %}

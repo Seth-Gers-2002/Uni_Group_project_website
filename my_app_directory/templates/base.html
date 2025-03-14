@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My App{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+
+
+<style>
+    div{
+        display:inline-block;
+
+        padding-left: 5px;
+    }
+    nav{
+        border-top: 2px solid #333333;
+        border-left: 2px solid #333333;
+        border-bottom: 2px solid #333333;
+
+        display:inline-block;
+        padding-left: 5px;
+
+    }
+    a{
+        display:inline-block;
+        padding-left: 5px;
+        border-left: 2px solid #333333;
+
+    }
+    body{
+        display: grid;
+    }
+
+
+</style>
+
+<body>
+    <nav>
+        <a href="{{ url_for('index') }}">🏠 Home</a>
+        <a href="{{ url_for('index') }}">Dashboard</a>
+        <div class="dropdown">
+            <button class="dropbtn">Management ▼</button>
+            <div class="dropdown-content">
+                <a href="{{ url_for('hazard_management.hazard_form') }}">Hazard Form</a>
+            </div>
+        </div>
+        <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
+        <a href="#">Documentation</a>
+        <a href="#">Account</a>
+    </nav>
+
+
+</body>
+
+<body>
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+
+
+</html>
