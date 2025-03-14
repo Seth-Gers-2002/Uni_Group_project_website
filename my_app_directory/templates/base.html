@@ -6,6 +6,21 @@
     <title>{% block title %}My App{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
+<style>
+    /* Main Nav */
+    nav {
+        display: inline-block;
+    }
+    a{
+        display: inline-block;
+    }
+    div{
+        display: inline-block;
+    }
+
+
+</style>
+
 <body>
     <nav>
         <a href="{{ url_for('index') }}">🏠 Home</a>
