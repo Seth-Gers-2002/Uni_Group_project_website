@@ -73,3 +73,31 @@ h2 {
   border-radius: 4px;
   margin-bottom: 10px;
 }
+
+@media screen and (min-width: 10px) {
+
+  form {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: grid;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 900px){
+    form{
+        margin-left:10em;
+        margin-right:10em;
+        display:grid;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    form{
+        margin-left:15em;
+        margin-right:15em;
+        display:grid;
+        padding: 10px;
+    }
+}
