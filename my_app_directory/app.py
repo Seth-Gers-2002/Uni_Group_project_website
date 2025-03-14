@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from config import Config
 from models import db
-from routes import hazard_management_bp, inventory_bp
+from routes import hazard_management_bp, inventory_bp, job_bp
 
 def create_app():
     app = Flask(__name__)
@@ -15,6 +15,7 @@ def create_app():
     # Register blueprints
     app.register_blueprint(hazard_management_bp)
     app.register_blueprint(inventory_bp)
+    app.register_blueprint(job_bp)
 
     @app.route('/')
     def index():
