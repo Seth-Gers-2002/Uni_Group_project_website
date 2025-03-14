@@ -1,13 +1,6 @@
 {% extends 'base.html' %}
-
-<head>
-	<title>FlaskTest</title>
-</head>
-
-
-{% block body %}
-
-	<h1>this is overriding the template</h1>
-<h2>this is jobs</h2>
-
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>Welcome to the Home Page</h1>
+<p>This is the main homepage. Use the navigation bar above to explore the app.</p>
 {% endblock %}

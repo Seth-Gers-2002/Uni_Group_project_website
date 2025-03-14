@@ -1,73 +1,75 @@
 /* A simple grid for the four big action buttons */
-
 .stock-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px; /* spacing between cards */
   max-width: 800px;
-  margin: 0 auto; /* center the grid */
-  padding: 20px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-.stock-card {
-  border: 1px solid #ccc;
+/* Form header */
+h2 {
   text-align: center;
-  padding: 30px 20px;
-  transition: box-shadow 0.2s ease;
-  border-radius: 6px;
-  background-color: #f9f9f9;
+  margin-bottom: 30px;
 }
 
-.stock-card:hover {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-}
-
-.stock-card a {
-  text-decoration: none;
-  color: inherit; /* keep text color consistent */
+/* Form groups styling */
+.form-group {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-bottom: 20px;
 }
 
-.stock-icon {
-  margin-bottom: 10px;
-}
-
-.stock-icon i {
-  color: #333; /* icon color, adjust as needed */
-}
-
-.stock-label {
-  font-size: 1.2em;
+.form-group label {
+  margin-bottom: 5px;
   font-weight: bold;
 }
 
-  form {
-    margin-left: 5em;
-    margin-right: 5em;
-    display: grid;
-    padding: 10px;
-  }
-
-  nav{
-
-  }
-
-@media screen and (min-width: 1400px){
-    form{
-        margin-left:10em;
-        margin-right:10em;
-        display:grid;
-        padding: 10px;
-    }
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
 }
 
-@media screen and (min-width: 1400px){
-    form{
-        margin-left:15em;
-        margin-right:15em;
-        display:grid;
-        padding: 10px;
-    }
+.form-group button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+/* Flash messages styling */
+.flash-container {
+  margin-bottom: 20px;
+}
+
+.flash-message.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.flash-message.success {
+  color: #155724;
+  background-color: #d4edda;
+  padding: 10px;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
