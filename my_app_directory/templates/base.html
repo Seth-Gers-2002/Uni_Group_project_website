@@ -4,41 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}My App{% endblock %}</title>
+
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <style>
+        /* General Navigation Styling */
+        nav {
+            display: flex;
+            gap: 15px;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 8px 12px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+        /* Dropdown Styling */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropbtn {
+            background: none;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 8px 12px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Container for Page Content */
+        .container {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+    </style>
 </head>
-<style>
-    /* Main Nav */
-    nav {
-        display: inline-block;
-    }
-    a{
-        display: inline-block;
-    }
-    div{
-        display: inline-block;
-    }
-
-
-</style>
-
 <body>
+
+    <!-- Navigation Bar -->
     <nav>
         <a href="{{ url_for('index') }}">🏠 Home</a>
         <a href="{{ url_for('index') }}">Dashboard</a>
+
         <div class="dropdown">
             <button class="dropbtn">Management ▼</button>
             <div class="dropdown-content">
                 <a href="{{ url_for('hazard_management.hazard_form') }}">Hazard Form</a>
             </div>
         </div>
+
         <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
         <a href="{{ url_for('job.job_intake') }}">Job Intake Form</a>
         <a href="#">Documentation</a>
         <a href="#">Account</a>
     </nav>
 
+    <!-- Main Content Area -->
     <div class="container">
         {% block content %}{% endblock %}
     </div>
+
 </body>
 </html>

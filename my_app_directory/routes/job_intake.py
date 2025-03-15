@@ -1,51 +1,49 @@
-from flask import Blueprint, render_template, request, redirect, url_for, flash
+from flask import Blueprint, render_template, redirect, url_for, flash
+from models import db, Job
+from forms import JobIntakeForm
+import sys
 
-# Define Blueprint before using it
+# Define the blueprint for job intake routes
 job_bp = Blueprint('job', __name__)
+
 
 @job_bp.route('/job_intake', methods=['GET', 'POST'])
 def job_intake():
-    if request.method == 'POST':  # Only validate when submitting
-        job_title = request.form.get('job_title')
-        date = request.form.get('date')
-        client_name = request.form.get('client_name')
-        phone_number = request.form.get('phone_number')
-        email = request.form.get('email')
-        address = request.form.get('address')
-        job_description = request.form.get('job_description')
-        priority = request.form.get('priority')
-        technician_assigned = request.form.get('technician_assigned')
-        status = request.form.get('status')
+    form = JobIntakeForm()
+    if form.validate_on_submit():
+        try:
+            # Convert the input date from dd/mm/yyyy to ISO format (YYYY-MM-DD)
+            formatted_date = form.date.data.strftime('%Y-%m-%d')
+        except Exception as e:
+            flash("Invalid date format. Please ensure the date is entered as dd/mm/yyyy.", "error")
+            return render_template('job_intake.html', form=form)
 
-        # Validation
-        errors = []
-        if not job_title:
-            errors.append("Job title is required.")
-        if not date:
-            errors.append("Date is required.")
-        if not client_name:
-            errors.append("Client full name is required.")
-        if not phone_number or not phone_number.isdigit() or len(phone_number) != 10:
-            errors.append("Phone number must be exactly 10 digits.")
-        if not email or "@" not in email:
-            errors.append("A valid email address is required.")
-        if not address:
-            errors.append("Address is required.")
-        if not job_description:
-            errors.append("Job description is required.")
-        if not priority:
-            errors.append("Priority is required.")
-        if not technician_assigned:
-            errors.append("Technician assigned is required.")
-        if not status:
-            errors.append("Job status is required.")
-
-        if errors:
-            for error in errors:
-                flash(error, "error")
-            return render_template('job_intake.html', form=request.form)  # Retain values
+        new_job = Job(
+            job_title=form.job_title.data,
+            date=formatted_date,
+            client_name=form.client_name.data,
+            phone_number=form.phone_number.data,
+            email=form.email.data,
+            address=form.address.data,
+            job_description=form.job_description.data,
+            priority=form.priority.data,
+            technician_assigned=form.technician_assigned.data,
+            status=form.status.data
+        )
+        db.session.add(new_job)
+        try:
+            db.session.commit()
+        except Exception as commit_error:
+            db.session.rollback()
+            flash("An error occurred while saving the job: " + str(commit_error), "error")
+            print("Commit Error:", commit_error, file=sys.stderr)
+            return render_template('job_intake.html', form=form)
 
         flash("Job successfully submitted!", "success")
-        return redirect(url_for('job.job_intake'))  # Redirect after success
-
-    return render_template('job_intake.html', form={})  # Render empty form on GET request
+        return redirect(url_for('job.job_intake'))
+    else:
+        if form.errors:
+            for field, errors in form.errors.items():
+                for error in errors:
+                    flash(f"{field}: {error}", "error")
+    return render_template('job_intake.html', form=form)

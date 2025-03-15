@@ -6,7 +6,7 @@ from routes import hazard_management_bp, inventory_bp, job_bp
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
-    app.secret_key = "your_secret_key"  # Needed for flash messages and CSRF protection
+    app.secret_key = "your_secret_key"  # Required for flash messages and CSRF protection
 
     db.init_app(app)
     with app.app_context():
@@ -17,11 +17,9 @@ def create_app():
     app.register_blueprint(inventory_bp)
     app.register_blueprint(job_bp)
 
-
     @app.route('/')
     def index():
-        # Render the home page; pass an empty 'form' to avoid undefined errors in templates
-        return render_template("home.html", form={})
+        return render_template("home.html")
 
     return app
 

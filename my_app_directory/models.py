@@ -27,3 +27,19 @@ class InventoryItem(db.Model):
 
     def __repr__(self):
         return f"<InventoryItem {self.name}>"
+
+class Job(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    job_title = db.Column(db.String(100), nullable=False)
+    date = db.Column(db.String(10), nullable=False)  # Stored as string for simplicity
+    client_name = db.Column(db.String(100), nullable=False)
+    phone_number = db.Column(db.String(20), nullable=False)
+    email = db.Column(db.String(100), nullable=False)
+    address = db.Column(db.String(255), nullable=False)
+    job_description = db.Column(db.Text, nullable=False)
+    priority = db.Column(db.String(10), nullable=False)
+    technician_assigned = db.Column(db.String(100), nullable=False)
+    status = db.Column(db.String(20), nullable=False)
+
+    def __repr__(self):
+        return f'<Job {self.job_title}>'
