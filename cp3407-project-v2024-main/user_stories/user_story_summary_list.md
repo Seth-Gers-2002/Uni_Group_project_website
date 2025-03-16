@@ -1,3 +1,5 @@
+totals number 123 days of work
+
 Priority 10:
 #1: Show current deals
 
@@ -70,6 +72,8 @@ Priority 30:
 #40: Supply Tracker – Location Tracking, 2 days
 
 Priority 40:
+#2: FOrms tab, 1 day
+
 #7: Map to Location, 1 days
 
 #12: Display Service Provider Details, 2 days
