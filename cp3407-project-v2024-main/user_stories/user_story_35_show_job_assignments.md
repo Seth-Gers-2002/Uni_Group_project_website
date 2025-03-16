@@ -6,7 +6,7 @@ A feature that shows which jobs have been assigned and to whom.
 ## Estimation: e.g. 1 day
 Any notes on estimation:
 * Aaron: 2 days
-* Seth: x
+* Seth: 2 days
 * Harrison: 2 days
 
 ## Assumptions (if any):

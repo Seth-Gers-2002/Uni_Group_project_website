@@ -17,7 +17,7 @@ A tab dedicated to displaying job opportunities, availability, and assignment.
 ## Estimation: e.g. 2 days
 Any notes on estimation:
 * Aaron: 4 days
-* Seth: x
+* Seth: 4 days
 * Harrison: 4 days
 
 ## Assumptions (if any):

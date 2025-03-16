@@ -18,7 +18,7 @@ A dedicated tab that displays the current amount, type, and location of cleaning
 ## Estimation: e.g. 2 days
 Any notes on estimation:
 * Aaron: 2 days
-* Seth: x days
+* Seth: 2 days
 * Harrison: 2 days
 
 ## Assumptions (if any):

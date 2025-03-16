@@ -18,7 +18,7 @@ A dedicated tab that displays the list and quantities of supplies available, wit
 ## Estimation: e.g. 2 days
 Any notes on estimation:
 * Aaron: 1 day
-* Seth: x
+* Seth: 1 day
 * Harrison: 1 day
 
 ## Assumptions (if any):

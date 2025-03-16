@@ -7,7 +7,7 @@ A feature that allows admins to assign jobs to teams or individual employees.
 ## Estimation: e.g. 1 day
 Any notes on estimation:
 * Aaron: 1 day
-* Seth: x
+* Seth: 2 days
 * Harrison: 2 days
 
 ## Assumptions (if any):

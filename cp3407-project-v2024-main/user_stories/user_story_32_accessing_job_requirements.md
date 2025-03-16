@@ -6,7 +6,7 @@ An easy-to-access system for retrieving job requirement information.
 ## Estimation: e.g. 1 day
 Any notes on estimation:
 * Aaron: 3 days
-* Seth: x 
+* Seth: 4 days
 * Harrison: 5 days
 
 ## Assumptions (if any):

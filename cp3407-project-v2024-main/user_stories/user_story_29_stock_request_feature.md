@@ -7,7 +7,7 @@ Implement a mechanism that enables users (employees or even the admin) to reques
 ## Estimation: e.g. 1 day
 Any notes on estimation:
 * Aaron: 2 days
-* Seth: x
+* Seth: 1 days
 * Harrison: 1 day
 
 ## Assumptions (if any):

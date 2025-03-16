@@ -7,7 +7,7 @@ A tab or section dedicated to storing all cleaning tasks, with fields for task d
 ## Estimation: e.g. 2 days
 Any notes on estimation:
 * Aaron: 3 days
-* Seth: x days
+* Seth: 3 days
 * Harrison: 3 days 
 
 ## Assumptions (if any):

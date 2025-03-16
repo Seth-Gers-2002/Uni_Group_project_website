@@ -6,7 +6,7 @@ A feature that allows clients to book cleaning jobs themselves, providing conven
 ## Estimation: e.g. 3 days
 Any notes on estimation:
 * Aaron: 3 days
-* Seth: x
+* Seth: 3 days
 * Harrison: 3 days
 
 ## Assumptions (if any):

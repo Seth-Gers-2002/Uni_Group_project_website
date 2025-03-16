@@ -11,7 +11,7 @@ Essential to have a functional & accessible landing page, so that users have the
 ## Estimation: e.g. 2 days
 Any notes on estimation go here. Keep your planning poker game numbers. For example
 * Aaron: x
-* Seth: x
+* Seth: 1 day
 * Harrison: 0.5 days
 
 ## Assumptions (if any):

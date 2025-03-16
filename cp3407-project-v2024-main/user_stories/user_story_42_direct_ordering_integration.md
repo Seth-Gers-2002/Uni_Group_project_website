@@ -7,7 +7,7 @@ A feature that allows ordering supplies directly into the inventory system, auto
 ## Estimation: e.g. 2 days
 Any notes on estimation:
 * Aaron: 3 days
-* Seth: x
+* Seth:  4 days
 * Harrison: 4 days
 
 ## Assumptions (if any):

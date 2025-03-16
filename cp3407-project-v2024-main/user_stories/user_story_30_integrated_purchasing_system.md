@@ -7,7 +7,7 @@ An integrated system that enables admins to not only process supply requests but
 ## Estimation: e.g. 3 days
 Any notes on estimation:
 * Aaron: 3 days
-* Seth: x
+* Seth: 3 days
 * Harrison: 3 days
 
 ## Assumptions (if any):

@@ -17,7 +17,7 @@ A basic and reliable login page where employees can enter their credentials (ID 
 ## Estimation: e.g. 2 days
 Any notes on estimation:
 * Aaron: 2 days
-* Seth: x
+* Seth: 2 days
 * Harrison: 2 days
 
 ## Assumptions (if any):

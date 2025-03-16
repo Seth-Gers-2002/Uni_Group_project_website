@@ -6,7 +6,7 @@ A component that lists all available job opportunities with key details.
 ## Estimation: e.g. 1 day
 Any notes on estimation:
 * Aaron: 2 days
-* Seth: x
+* Seth: 2 days
 * Harrison: 1 day
 
 ## Assumptions (if any):

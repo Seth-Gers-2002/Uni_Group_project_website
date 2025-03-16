@@ -7,7 +7,7 @@ A feature that allows for the correlation of cleaning supplies to specific clean
 ## Estimation: e.g. 2 days
 Any notes on estimation:
 * Aaron: 4 days
-* Seth: x days
+* Seth: 4 days
 * Harrison: 5 days
 
 ## Assumptions (if any):
