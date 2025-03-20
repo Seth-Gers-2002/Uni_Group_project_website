@@ -24,7 +24,7 @@ Description-v1: e.g. Landing page where users will be directed upon entering the
 
 
 ## UI Design:
-x
+![User Story 45 Wireframe](user_story_wireframes/User_Story_45_Wireframe.png)
 
 # Completed:
 
