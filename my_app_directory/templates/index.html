@@ -1,8 +1,149 @@
 {% extends "base.html" %}
 
-{% block title %}Home{% endblock %}
-
+{% block navbar %}
+    <nav class="front-page-nav">
+        <a href="{{ url_for('index') }}">
+        <img src="{{ url_for('static', filename='images/logo3407.png') }}" alt="Home" class="home-link-button">
+        </a>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('about_us') }}">About Us</a>
+        <a href="#">Log In</a>
+    </nav>
+    {% endblock %}
 {% block content %}
-    <h1>Welcome to the Management Dashboard</h1>
-    <p>This is your home page.</p>
+
+<div class="banner-section">
+    <img src="{{ url_for('static', filename='images/banner3407.png') }}" alt="Landing page banner">
+    <br><br><br><br>
+</div>
+
+<div class="main-contents-container">
+    <div class="product-description-left">
+        <div class="product-description-text">
+            <h2>What Is MyClean?</h2>
+            <p>MyClean is an innovative platform designed to streamline the booking management process for individual
+                cleaners and cleaning companies with a user-friendly website. MyClean offers a
+                seamless experience for customers seeking cleaning services.</p>
+            <br>
+            <p> The app allows users to easily browse
+                current deals, schedule appointments, and receive reminders, all for free. Service providers can benefit
+                from a range of features, including a job intake form, customer information intake system, and
+                appointment confirmation tools.</p>
+            <br>
+            <p>The platform also includes a secure provider onboarding process with a
+                security check and a supervisor dashboard for effective management. Additionally, MyClean offers job
+                opportunities for cleaners and cleaning companies, making it an essential tool for both customers and
+                service providers.</p>
+            <br>
+        </div>
+    </div>
+
+    <div class="call-to-action-right">
+        <div class="call-to-action-body">
+            <h2>Sign Up Today!</h2>
+            <br><br><br><br><br>
+            <a href="">
+                <button class="linked-button">Get Started</button>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="benefits-label-section">
+    <br><br><br><br>
+    <img src="{{ url_for('static', filename='images/benefits.png') }}" alt="Benefits text image">
+    <br><br>
+</div>
+
+<div class="benefits-section">
+        <div class="individual-benefits-section">
+        <div class="individual-benefits-text">
+            <h2>Individual Cleaners</h2>
+            <br>
+            <ul>
+                <li>Job Opportunities</li>
+                <li>Easy Scheduling</li>
+                <li>Work When You Want</li>
+            </ul>
+            <br>
+        </div>
+    </div>
+
+    <div class="customer-benefits-section">
+        <div class="customer-benefits-text">
+            <h2>Customers</h2>
+            <br>
+            <ul>
+                <li>Convenient Booking</li>
+                <li>Trusted Cleaners</li>
+                <li>Automatic Reminders</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="company-benefits-section">
+        <div class="company-benefits-text">
+            <h2>Companies</h2>
+            <br>
+            <ul>
+                <li>Efficient Booking Management</li>
+                <li>Supervisors Dashboard</li>
+                <li>Growth Analytics</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="faq-section">
+    <br><br><br><br><br><br><br><br>
+    <img src="{{ url_for('static', filename='images/faq.png') }}" alt="faq text image">
+    <div class="faq-row-one-section">
+            <div class="faq-row-one-question-one-section">
+            <div class="faq-row-one-question-one-text">
+                <h2>How Much Is MyClean?</h2>
+                <br>
+                <p>MyClean is free for all customers. MyClean takes a very small % cut from all service providers
+                revenue.</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="faq-row-one-question-two-section">
+            <div class="faq-row-one-question-two-text">
+                <h2>How Do I Become A Service Provider?</h2>
+                <br>
+                <p>Becoming a service provider is easy. Simply sign up as one, complete the relevant security checks
+                and submit your details. Once your approved your good to go.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq-row-one-section">
+            <div class="faq-row-two-question-one-section">
+            <div class="faq-row-two-question-one-text">
+                <h2>How Do I Book A Cleaning Service?</h2>
+                <br>
+                <p>Customers can book a cleaning service directly through a service provider by contacting them.
+                In addition, job postings can also be made.</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="faq-row-two-question-two-section">
+            <div class="faq-row-two-question-two-text">
+                <h2>Can I Cancel My Appointment?</h2>
+                <br>
+                <p>Yes, you can cancel an appointment at any time. However, cancellations that are not made at least
+                two business days in advance will incur a late fee.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 MyClean. All rights reserved.</p>
+</footer>
+
+
 {% endblock %}

@@ -29,4 +29,10 @@ cleaner or company.
 ![User Story 45 Wireframe](user_story_wireframes/User_Story_45_Wireframe.png)
 
 # Completed:
+Started 20/03/25 --- Finished 22/03/25
 
+![Completed Image 1](completed_user_story_images/completed_user_story_45_1.png)
+![Completed Image 2](completed_user_story_images/completed_user_story_45_2.png)
+![Completed Image 3](completed_user_story_images/completed_user_story_45_3.png)
+![Completed Image 4](completed_user_story_images/completed_user_story_45_4.png)
+![Completed Image 5](completed_user_story_images/completed_user_story_45_5.png)
