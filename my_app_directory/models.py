@@ -43,3 +43,19 @@ class Job(db.Model):
 
     def __repr__(self):
         return f'<Job {self.job_title}>'
+
+# --- MFA CHANGE START
+class User(db.Model):
+    """Stores basic user authentication and MFA preferences."""
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(80), unique=True, nullable=False)
+    password_hash = db.Column(db.String(255), nullable=False)
+
+    # Multi-Factor Authentication fields
+    mfa_enabled = db.Column(db.Boolean, default=False, nullable=False)
+    mfa_method = db.Column(db.String(20))  # e.g., 'Email' or 'Text'
+    # Could also store phone/email for sending token
+
+    def __repr__(self):
+        return f"<User {self.username}, MFA Enabled: {self.mfa_enabled}>"
+# --- MFA CHANGE END

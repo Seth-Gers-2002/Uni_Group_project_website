@@ -1,26 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}My App{% endblock %}</title>
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<h2>Login</h2>
+<form method="POST" action="{{ url_for('auth.login') }}">
+    <label>Username</label>
+    <input type="text" name="username" required>
 
-    <!-- Link to external stylesheet -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <label>Password</label>
+    <input type="password" name="password" required>
 
-</head>
-<body>
+    <button type="submit">Login</button>
+</form>
 
-    <!-- Main Content Area -->
-    <div class="container">
-        {% block content %}
-
-
-        <a href="{{ url_for('index') }}">login </a>
-
-
-        {% endblock %}
-    </div>
-
-</body>
-</html>
+<!-- Bypass Login Button for Testing MFA -->
+<p>
+    <a href="{{ url_for('auth.login_bypass') }}" class="btn">Bypass Login for MFA Testing</a>
+</p>
+{% endblock %}

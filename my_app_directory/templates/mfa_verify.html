@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}MFA Verification{% endblock %}
+{% block content %}
+<h2>Multi-Factor Authentication</h2>
+<form method="POST">
+    <label>Enter Token</label>
+    <input type="text" name="token" required>
+    <button type="submit">Verify</button>
+</form>
+{% endblock %}

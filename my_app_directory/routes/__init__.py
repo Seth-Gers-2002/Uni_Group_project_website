@@ -8,5 +8,8 @@ inventory_bp = Blueprint('inventory', __name__)
 from . import hazard_management
 from . import inventory
 
+# Import auth blueprint
+from .auth import auth_bp
+
 # Import the job intake blueprint from the job_intake module
 from .job_intake import job_bp
