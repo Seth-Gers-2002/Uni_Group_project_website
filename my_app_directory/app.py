@@ -17,13 +17,20 @@ def create_app():
     app.register_blueprint(inventory_bp)
     app.register_blueprint(job_bp)
 
-    @app.route('/')
+    @app.route('/index')
     def index():
         return render_template("index.html")
 
     @app.route('/about_us')
     def about_us():
         return render_template("about_us.html")
+
+    @app.route('/')
+    def client_home():
+        return render_template("client_home.html")
+    @app.route('/login')
+    def login():
+        return render_template("login.html")
 
     return app
 
