@@ -133,6 +133,7 @@ AAron
 
 ### Burn Down for iteration-1 (see chapter 4):
 Update this at least once per week
-* 4 weeks left, 125 days left of work
+* 4 weeks left, 125 days left of work (7 days completed
 
-* Actual Velocity: 7 days
+velocity: estimated days / worked days 
+* Actual Velocity: 7 / 4 = 1.75
