@@ -70,7 +70,7 @@ from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 Base = declarative_base()
 
 # 1. Users Table (Modified)
-class UserTable(Base):
+class User(Base):
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True)

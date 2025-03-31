@@ -18,7 +18,7 @@ def create_app():
     app.register_blueprint(job_bp)
     app.register_blueprint(auth_bp)
 
-    @app.route('/index')
+    @app.route('/')
     def index():
         return render_template("index.html")
 
@@ -26,12 +26,16 @@ def create_app():
     def about_us():
         return render_template("about_us.html")
 
-    @app.route('/')
+    @app.route('/client-home')
     def client_home():
         return render_template("client_home.html")
     @app.route('/login')
     def login():
         return render_template("login.html")
+
+    @app.route('/base')
+    def base():
+        return render_template("base.html")
 
     return app
 
