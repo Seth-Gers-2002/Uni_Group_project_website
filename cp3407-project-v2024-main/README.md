@@ -1,73 +1,130 @@
-
-## checking to see if this works
-
-How to edit this: test-2025
-* Option-1 (tested and worked ok): PyCharm supports editing of these .md files. Then you need to push to the main branch or make a pull request.
-* Option-2 (tested ok): Edit and commit it directly on github. Then any local repo copies will need to be "updated".
-
-# cp3407-project-v2024 template [Delete or change to your team/project name before submitting]
-
-This a project assignment template for CP3407. 
-The following is the list of items, which are required to be completed.
-
-## How to submit [You may delete this before submitting]
-
-2. Add your instructor (JCU-Australia: jc138691@gmail.com Dmitry Konovalov) as a team member to view your project on github
-1. Submit link to your repository
-2. Download your github repository as a zip file and submit via LearnJCU.
-
 ## Team
 
-It is recommended to complete this assignment in a group of 2-4 students.
 1. Seth Gersbach
-2. Student name 2
-3. Name 3
-4. Name 4
+2. Aaron Bailey
+3. Harrison O'Kane
 
 
-# Project planning BEFORE iteration-1, (see chapters 1-3)
+# Project planning BEFORE iteration-1 (Before the 10/02/25):
 Checklist/TODOs: 
 * Update the following during each week prac session
 * github entry timestamp is BEFORE the iteration-1
 * User stories are correct: see p39
 * Must have more user stories than fits into iterations 1 and 2. To practice the priority.
-* [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-* User SP
-* Sp can create, delete, edit. CH1
-* P=10 SP can create: Info=input location, pricem availm set password/email, phone
-* P=20 SP can edit info:
-* P=30 SP can delete
-* 
-* P=40 SP Monthly fee
-* P=40 SP gets their service listed for user.
-* P=10 all SP are listed, we get a cur from each booking.
-* 
-* SP can service location, price/per/hour, avalability. chq
-* Uswe info: create edit deleete: info: location, address, contact, name
-* P=10, one address 1d
-* P=30 multiple addresses 10d?
+* User Story 28 Environment Certifications, Priority 30, 2 days
+* User Story 27 Multi-Factor Authentication, Priority 15, 6 days
+* User Story 26 Service Provider Security Check, Priority 10, 3 days
+* User Story 25 Community Forum, Priority 50, 5 days
+* User Story 24 Multilingual Support, Priority 50, 8 days
+* User Story 23 Urgent Jobs, Priority 30, 2 days
+* User Story 22 View Analytics, Priority 20, 6 days
+* User Story 21 Customer Rating and Feedback, Priority 30, 3 days
+* User Story 20 Job Performance & Reports, Priority 40, 4 days
+* User Story 19 Customer Appointment Confirmation & Reminders, Priority 10, 3 days
+* User Story 18 Employee Onboarding Guide, Priority 30, 5 days
+* User Story 17 Job Issue Reporting, Priority 20, 5 days
+* User Story 16 Supervisor Dashboard Overview, Priority 10, 5 days
+* User Story 15 Real-Time Job Notifications, Priority 20, 4 days
+* User Story 14 In-app Chat Support, Priority 15, 6 days
+* User Story 13 View Profile Rating, Priority 30, 2 days
+* User Story 12 Display Service Provider Details, Priority 40, 2 days
+* User Story 11 Supply Tracker – Inventory Management, Priority 20, 1 day
+* User Story 10 Basic Login Functionality, Priority 10, 2 days
+* User Story 9 Cleaning Supply Inventory, Priority 20, 2 days
+* User Story 8 Customer Information Intake System, Priority 10, 2 days
+* User Story 7 Map to Location, Priority 40, 1 day
+* User Story 6 Job Board, Priority 20, 4 days
+* User Story 5 Streamline Intake, Priority 10, 2 days
+* User Story 4 Hazard Intake, Priority 20, 1 day
+* User Story 3 Storage System, Priority 10, 0.5 days
+* User Story 2 Forms tab, Priority 40, 1 day
 
-Total: YY days
+Original Total: 87.5 days
+
+### User Stories Added After 06/03/25 (Some user stories needed to broken down into separate user stories):
+* User Story 45 Landing Page, Priority 10, 1 day
+* User Story 44 Automated Supply Ordering System, Priority 50, 5 days
+* User Story 43 Supply-Task Correlation, Priority 50, 5 days
+* User Story 42 Supply Tracker – Direct Ordering Integration, Priority 40, 4 days
+* User Story 41 Cleaning Tasks Repository, Priority 20, 3 days
+* User Story 40 Supply Tracker – Location Tracking, Priority 30, 2 days
+* User Story 39 Streamlined Login Experience, Priority 20, 2 days
+* User Story 38 Comprehensive Customer Information Collection System, Priority 15, 2 days
+* User Story 37 Copy Address for Navigation, Priority 15, 0.5 days
+* User Story 36 Assign Jobs, Priority 30, 2 days
+* User Story 35 Show Job Assignments, Priority 20, 2 days
+* User Story 34 Display Job Opportunities, Priority 10, 2 days
+* User Story 33 Client Self-Booking, Priority 15, 3 days
+* User Story 32 Accessing Job Requirements, Priority 20, 6 days
+* User Story 31 Job Intake Form, Priority 10, 2 days
+* User Story 30 Integrated Purchasing & Replenishment System, Priority 50, 3 days
+* User Story 29 Stock Request Feature, Priority 25, 2 days
+* User Story 4 Hazard Intake, Priority 20, 1 day
 
 
-## Iteration 1 [duration 3-4 weeks], add your start and end dates 
-
-* Goal is to have 2 iterations during a trimester of teaching.
-* Update the following during each week prac session
-* During pracs, you may experiment with using other github ways of tracking changes, e.g. via pull requests.
-
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
-
-Total: YY days
+Updated Total: 134 days
 
 
-### Iteration 2 [duration 3-4 weeks], add your start and end dates
-Goal is to have 2 iterations during a trimester of teaching.
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
+## Iteration 1 [duration 3-4 weeks] (10/02/25 - 16/03/25)
+### 42 Projected Working Days For 3 Developers, Based On Initial Assumed Velocity of 0.7
 
-Total: YY days
+1. User Story 3 Storage System, Priority 10, 0.5 days
+2. User Story 5 Streamline Intake, Priority 10, 2 days
+3. User Story 8 Customer Information Intake System, Priority 10, 2 days
+4. User Story 10 Basic Login Functionality, Priority 10, 2 days
+5. User Story 16 Supervisor Dashboard Overview, Priority 10, 5 days
+6. User Story 19 Customer Appointment Confirmation & Reminders, Priority 10, 3 days
+7. User Story 26 Service Provider Security Check, Priority 10, 3 days
+8. User Story 31 Job Intake Form, Priority 10, 2 days
+9. User Story 34 Display Job Opportunities, Priority 10, 2 days
+10. User Story 45 Landing Page, Priority 10, 1 day
+11. User Story 27 Multi-Factor Authentication, Priority 15, 6 days
+12. User Story 33 Client Self-Booking, Priority 15, 3 days
+13. User Story 37 Copy Address for Navigation, Priority 15, 0.5 days
+14. User Story 38 Comprehensive Customer Information Collection System, Priority 15, 2 days
+15. User Story 14 In-app Chat Support, Priority 15, 6 days
+16. User Story 4 Hazard Intake, Priority 20, 1 day
+
+
+
+Total: 41 days
+
+
+## Ideal Iteration 2 [duration 3-4 weeks] (17/03/25 - 14/04/25)
+### 39 Projected Working Days For 3 Developers, Based On Ideal Velocity Of 0.7
+* Only User Stories 3, 4, 8, 5 And 33 Were Completed From Iteration 1, Remaining User Stories Pushed Back To Iteration 2
+
+1. User Story 10 Basic Login Functionality, Priority 10, 2 days
+2. User Story 16 Supervisor Dashboard Overview, Priority 10, 5 days
+3. User Story 19 Customer Appointment Confirmation & Reminders, Priority 10, 3 days
+4. User Story 26 Service Provider Security Check, Priority 10, 3 days
+5. User Story 31 Job Intake Form, Priority 10, 2 days
+6. User Story 34 Display Job Opportunities, Priority 10, 2 days
+7. User Story 45 Landing Page, Priority 10, 1 day
+8. User Story 27 Multi-Factor Authentication, Priority 15, 6 days
+9. User Story 37 Copy Address for Navigation, Priority 15, 0.5 days
+10. User Story 38 Comprehensive Customer Information Collection System, Priority 15, 2 days
+11. User Story 14 In-app Chat Support, Priority 15, 6 days
+12. User Story 9 Cleaning Supply Inventory, Priority 20, 2 days
+13. User Story 22 View Analytics, Priority 20, 6 days
+14. User Story 11 Supply Tracker – Inventory Management, Priority 20, 1 day
+
+
+## Actual Velocity Iteration 2 [duration 3-4 weeks] (17/03/25 - 14/04/25)
+### 6 Projected Working Days For 3 Developers, Based On Calculated Actual Velocity Of 0.154
+* Only User Stories 3, 4, 8, 5 And 33 Were Completed From Iteration 1, Remaining User Stories Pushed Back To Iteration 2
+
+1. User Story 10 Basic Login Functionality, Priority 10, 2 days
+2. User Story 34 Display Job Opportunities, Priority 10, 2 days
+3. User Story 45 Landing Page, Priority 10, 1 day
+4. User Story 37 Copy Address for Navigation, Priority 15, 0.5 days
+
+
+Total: 5.5 days
+
+### Re-Prioritized
+* User Story 14 In-app Chat Support, Priority 20, 6 days
+
 
 ### Not enough time/developers: 
 1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
