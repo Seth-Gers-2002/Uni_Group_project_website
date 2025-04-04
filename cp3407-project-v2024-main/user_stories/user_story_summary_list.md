@@ -1,4 +1,4 @@
-Total 130 days of work.
+Total 134 days of work.
 
 ## Priority 10:
 * #1: Show current deals
@@ -16,6 +16,8 @@ Total 130 days of work.
 * #19: Customer Appointment Confirmation & Reminders, 3 days
 
 * #26: Service Provider Security Check, 3 days
+
+* #31: Job Intake Form, 2 days
 
 * #34: Display Job Opportunities, 2 days
 
@@ -71,6 +73,8 @@ Total 130 days of work.
 
 * #28: Environment Certifications, 2 days
 
+* #30 Urgent Jobs, 2 days
+
 * #36: Assign Jobs, 2 days
 
 * #40: Supply Tracker – Location Tracking, 2 days
@@ -89,7 +93,7 @@ Total 130 days of work.
 
 
 ## Priority 50:
-* 24: Multilingual Support, 8 days
+* #24: Multilingual Support, 8 days
 
 * #25: Community Forum, 5 days
 
