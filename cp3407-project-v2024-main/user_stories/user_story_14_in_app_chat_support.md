@@ -1,6 +1,7 @@
 # User story title: In-app Chat Support
 
-## Priority: 15 (Iteration 1)
+## Priority: 20 (Iteration 2), Was 15 (Iteration 1)
+Could-Have
 *Notes:* This feature is important for enhancing the customer experience. It provides immediate assistance 
 without leaving the app and may be refined in later iterations.
 
