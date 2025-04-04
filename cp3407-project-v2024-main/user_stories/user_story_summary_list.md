@@ -1,11 +1,10 @@
 Total 134 days of work.
 
 ## Priority 10:
-* #1: Show current deals
 
 * #3: Storage System, 0.5 days
 
-* #5: Job Intake Form, 2 days
+* #5: Streamline Intake, 2 days
 
 * #8: Customer Information Intake System, 2 days
 
@@ -71,9 +70,9 @@ Total 134 days of work.
 
 * #21: Customer Rating and Feedback, 3 days
 
-* #28: Environment Certifications, 2 days
+* #23 Urgent Jobs, 2 days
 
-* #30 Urgent Jobs, 2 days
+* #28: Environment Certifications, 2 days
 
 * #36: Assign Jobs, 2 days
 
