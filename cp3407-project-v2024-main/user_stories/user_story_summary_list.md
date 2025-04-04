@@ -1,97 +1,103 @@
-totals number 123 days of work
+Total 130 days of work.
 
-Priority 10:
-#1: Show current deals
+## Priority 10:
+* #1: Show current deals
 
-#3: Storage System, 0.5 days
+* #3: Storage System, 0.5 days
 
-#5: Job Intake Form, 2 days
+* #5: Job Intake Form, 2 days
 
-#8: Customer Information Intake System, 2 days
+* #8: Customer Information Intake System, 2 days
 
-#10: Basic Login Functionality, 2 days
+* #10: Basic Login Functionality, 2 days
 
-#16: Supervisor Dashboard Overview, 5 days
+* #16: Supervisor Dashboard Overview, 5 days
 
-#19: Customer Appointment Confirmation & Reminders, 3 days
+* #19: Customer Appointment Confirmation & Reminders, 3 days
 
-#26: Service Provider Security Check, 3 days
+* #26: Service Provider Security Check, 3 days
 
-#34: Display Job Opportunities, 2 days
+* #34: Display Job Opportunities, 2 days
 
-#45: Landing Page, 1 day
+* #45: Landing Page, 1 day
 
-Priority 15:
-#14: In-app Chat Support, 6 days
 
-#27: Multi-Factor Authentication, 6 days
+## Priority 15:
+* #14: In-app Chat Support, 6 days
 
-#33: Client Self-Booking, 3 days
+* #27: Multi-Factor Authentication, 6 days
 
-#37: Copy Address for Navigation, .5 days
+* #33: Client Self-Booking, 3 days
 
-#38: Comprehensive Customer Information Collection System, 2 days
+* #37: Copy Address for Navigation, .5 days
 
-Priority 20:
-#4: Hazard Intake, 1 days
+* #38: Comprehensive Customer Information Collection System, 2 days
 
-#6: Job Board, 4 days
 
-#9: Cleaning Supply Inventory, 2 days
+## Priority 20:
+* #4: Hazard Intake, 1 days
 
-#11: Supply Tracker – Inventory Management, 1 day
+* #6: Job Board, 4 days
 
-#15: Real-Time Job Notifications, 4 days
+* #9: Cleaning Supply Inventory, 2 days
 
-#17: Job Issue Reporting, 5 days
+* #11: Supply Tracker – Inventory Management, 1 day
 
-#22: View Analytics, 6 days
+* #15: Real-Time Job Notifications, 4 days
 
-#32: Accessing Job Requirements, 6 days
+* #17: Job Issue Reporting, 5 days
 
-#35: Show Job Assignments, 2 days
+* #22: View Analytics, 6 days
 
-#39: Streamlined Login Experience, 2 days
+* #32: Accessing Job Requirements, 6 days
 
-#41: Cleaning Tasks Repository, 3 days
+* #35: Show Job Assignments, 2 days
 
-Priority 25:
-#29: Stock Request Feature, 2 days
+* #39: Streamlined Login Experience, 2 days
 
-Priority 30:
-#13: View Profile Rating, 2 days
+* #41: Cleaning Tasks Repository, 3 days
 
-#18: Employee Onboarding Guide, 5 days
 
-#21: Customer Rating and Feedback, 3 days
+## Priority 25:
+* #29: Stock Request Feature, 2 days
 
-#28: Environment Certifications, 2 days
 
-#36: Assign Jobs, 2 days
+## Priority 30:
+* #13: View Profile Rating, 2 days
 
-#40: Supply Tracker – Location Tracking, 2 days
+* #18: Employee Onboarding Guide, 5 days
 
-Priority 40:
-#2: FOrms tab, 1 day
+* #21: Customer Rating and Feedback, 3 days
 
-#7: Map to Location, 1 days
+* #28: Environment Certifications, 2 days
 
-#12: Display Service Provider Details, 2 days
+* #36: Assign Jobs, 2 days
 
-#20: Job Performance & Reports, 4 days
+* #40: Supply Tracker – Location Tracking, 2 days
 
-#42: Supply Tracker – Direct Ordering Integration, 4 days
 
-Priority 50:
-#24: Multilingual Support, 8 days
+## Priority 40:
+* #2: Forms tab, 1 day
 
-#25: Community Forum, 5 days
+* #7: Map to Location, 1 days
 
-#30: Integrated Purchasing & Replenishment System, 3 days
+* #12: Display Service Provider Details, 2 days
 
-#43: Supply-Task Correlation, 5 days
+* #20: Job Performance & Reports, 4 days
 
-#44: Automated Supply Ordering System, 5 days
+* #42: Supply Tracker – Direct Ordering Integration, 4 days
+
+
+## Priority 50:
+* 24: Multilingual Support, 8 days
+
+* #25: Community Forum, 5 days
+
+* #30: Integrated Purchasing & Replenishment System, 3 days
+
+* #43: Supply-Task Correlation, 5 days
+
+* #44: Automated Supply Ordering System, 5 days
 
 
 ## User Story Notes ##
