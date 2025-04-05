@@ -26,8 +26,31 @@
                         <a href="{{ url_for('job.job_intake') }}">Edit</a> |  <a href="#">Delete</a>
                     </td>
                 </tr>
+                <tr>
+                    <td colspan="5">
+                        <div class="address-container">
+                            <span class="address-text">{{ job.address }}</span>
+                            <button class="copy-address-btn" onclick="copyAddress('{{ job.address }}')">
+                                <img src="{{ url_for('static', filename='images/copy-svgrepo-com.svg') }}" alt="Copy Address">
+                            </button>
+                        </div>
+                    </td>
+                </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
+
+    <script>
+    function copyAddress(address) {
+      navigator.clipboard.writeText(address)
+        .then(() => {
+          alert('Address copied to clipboard!');
+        })
+        .catch(err => {
+          console.error('Error copying address: ', err);
+        });
+    }
+    </script>
+
 {% endblock %}

@@ -418,3 +418,35 @@ tbody td a {
 tbody td a:hover {
     text-decoration: underline;
 }
+
+.address-container {
+  display: flex;
+  align-items: center;
+}
+
+.address-text {
+  margin-right: 10px;
+}
+
+.copy-address-btn {
+  background: none;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  display: inline-flex; /* Use inline-flex */
+  align-items: center;
+  justify-content: center;
+  width: 30px; /* Set a fixed width for the button */
+  height: 30px; /* Set a fixed height for the button */
+}
+
+.copy-address-btn img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.copy-address-btn:hover img {
+  opacity: 0.7;
+}
