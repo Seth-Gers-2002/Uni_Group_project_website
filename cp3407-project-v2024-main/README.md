@@ -91,7 +91,7 @@ Total: 41 days
 
 
 ## Ideal Iteration 2 [duration 3-4 weeks] (17/03/25 - 14/04/25)
-### 39 Projected Working Days For 3 Developers, Based On Ideal Velocity Of 0.7
+### 42 Projected Working Days For 3 Developers, Based On Ideal Velocity Of 0.7
 * Only User Stories 3, 4, 8, 5 And 33 Were Completed From Iteration 1, Remaining User Stories Pushed Back To Iteration 2
 
 1. User Story 10 Basic Login Functionality, Priority 10, 2 days
@@ -108,6 +108,9 @@ Total: 41 days
 12. User Story 9 Cleaning Supply Inventory, Priority 20, 2 days
 13. User Story 22 View Analytics, Priority 20, 6 days
 14. User Story 11 Supply Tracker – Inventory Management, Priority 20, 1 day
+
+
+Total: 41.5 days
 
 
 ## Actual Velocity Iteration 2 [duration 3-4 weeks] (17/03/25 - 14/04/25)
