@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, redirect, url_for, flash
+from flask import Blueprint, render_template, redirect, url_for, flash, request
 from models import db, Job
 from forms import JobIntakeForm
 import sys
@@ -47,3 +47,11 @@ def job_intake():
                 for error in errors:
                     flash(f"{field}: {error}", "error")
     return render_template('job_intake.html', form=form)
+
+@job_bp.route('/jobs', methods=['GET'])  # New route to display jobs
+def list_jobs():
+    """
+    Retrieve all jobs from the database and display them.
+    """
+    jobs = Job.query.all()
+    return render_template('job_list.html', jobs=jobs)

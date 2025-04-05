@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}My App{% endblock %}</title>
 
-    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 
 </head>
 <body>
 
-    <!-- Navigation Bar -->
     {% block navbar %}
     <nav>
         <a href="{{ url_for('index') }}">🏠 Home</a>
@@ -21,6 +19,7 @@
             <button class="dropbtn">Management ▼</button>
             <div class="dropdown-content">
                 <a href="{{ url_for('hazard_management.hazard_form') }}">Hazard Form</a>
+                <a href="{{ url_for('job.list_jobs') }}">Job List</a>
             </div>
         </div>
 
@@ -33,7 +32,6 @@
     </nav>
     {% endblock %}
 
-    <!-- Main Content Area -->
     <div class="container">
         {% block content %}{% endblock %}
     </div>

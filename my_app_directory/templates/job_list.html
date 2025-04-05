@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Job List{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h2>Job List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Date</th>
+                    <th>Client</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for job in jobs %}
+                <tr>
+                    <td>{{ job.job_title }}</td>
+                    <td>{{ job.date }}</td>
+                    <td>{{ job.client_name }}</td>
+                    <td>{{ job.status }}</td>
+                    <td>
+                        <a href="{{ url_for('job.job_intake') }}">Edit</a> |  <a href="#">Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
