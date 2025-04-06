@@ -1,11 +1,7 @@
-from flask import Blueprint, render_template, redirect, url_for, flash, request
+from flask import Blueprint, render_template, request
 from models import db, Job
-from forms import JobIntakeForm
-import sys
 
-# Define the blueprint for job intake routes
 job_bp = Blueprint('job', __name__)
-
 
 @job_bp.route('/job_intake', methods=['GET', 'POST'])
 def job_intake():
@@ -51,7 +47,17 @@ def job_intake():
 @job_bp.route('/jobs', methods=['GET'])  # New route to display jobs
 def list_jobs():
     """
-    Retrieve all jobs from the database and display them.
+    Retrieve all jobs from the database and display them, with optional filtering.
     """
+    assignee_filter = request.args.get('assignee', '')  # Get the selected assignee from the query parameters
     jobs = Job.query.all()
-    return render_template('job_list.html', jobs=jobs)
+    assignees = db.session.query(Job.technician_assigned).distinct().all()
+    assignee_list = sorted(list(set([a[0] for a in assignees if a[0]])))
+    if "n/a" not in assignee_list:
+        assignee_list.append("n/a")
+
+    if assignee_filter and assignee_filter.lower() != 'all' and assignee_filter:
+        # Filter the jobs based on the selected assignee
+        jobs = [job for job in jobs if job.technician_assigned.lower() == assignee_filter.lower()]
+
+    return render_template('job_list.html', jobs=jobs, assignees=assignee_list, current_filter=assignee_filter)
