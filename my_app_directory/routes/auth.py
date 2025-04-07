@@ -63,6 +63,7 @@ def login():
     return render_template('login.html')
 
 @auth_bp.route('/mfa_verify/<int:user_id>', methods=['GET', 'POST'])
+
 def mfa_verify(user_id):
     """Step 2: Token input field for MFA verification."""
     user = User.query.get_or_404(user_id)

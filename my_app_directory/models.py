@@ -38,7 +38,7 @@ class Job(db.Model):
     address = db.Column(db.String(255), nullable=False)
     job_description = db.Column(db.Text, nullable=False)
     priority = db.Column(db.String(10), nullable=False)
-    technician_assigned = db.Column(db.String(100), nullable=False)
+    technician_assigned = db.Column(db.String(100), nullable=False)  # Reverted to technician_assigned
     status = db.Column(db.String(20), nullable=False)
 
     def __repr__(self):
@@ -128,7 +128,7 @@ class CompanyEmployee(Base):
     id = Column(Integer, primary_key=True)
     company_id = Column(Integer, ForeignKey('companies.id'), nullable=False)
     employee_id = Column(Integer, ForeignKey('users.id'), nullable=False)
-    is_owner = Column(Integer, default=0)  # If the employee is the owner of the company (0 for false, 1 for true)
+    is_owner = db.Column(db.Integer, default=0)  # If the employee is the owner of the company (0 for false, 1 for true)
 
     # Relationship to connect to Company and User
     company = relationship('Company', back_populates='employees')
@@ -204,4 +204,3 @@ for user in users_with_roles_and_companies:
     role_names = [user_role.role.role_name for user_role in user.roles]
     company_names = [company_employee.company.name for company_employee in user.companies]
     print(f"User: {user.name}, Email: {user.email}, Roles: {role_names}, Companies: {company_names}")
-

@@ -1,15 +1,6 @@
-{% extends "base.html" %}
+{% extends "client_base.html" %}
 
-{% block navbar %}
-    <nav class="front-page-nav">
-        <a href="{{ url_for('index') }}">
-        <img src="{{ url_for('static', filename='images/logo3407.png') }}" alt="Home" class="home-link-button">
-        </a>
-        <a href="{{ url_for('index') }}">Home</a>
-        <a href="{{ url_for('about_us') }}">About Us</a>
-        <a href="{{ url_for('login') }}">Log In</a>
-    </nav>
-    {% endblock %}
+
 {% block content %}
 
 <div class="banner-section">

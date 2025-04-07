@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}My App{% endblock %}</title>
+{% extends 'client_base.html' %}
 
-    <!-- Link to external stylesheet -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% block title %}Login{% endblock %}
+{% block content %}
+<form method="POST" action="{{ url_for('auth.login') }}">
+    <label>Username</label>
+    <input type="text" name="username" required>
 
-</head>
-<body>
+    <label>Password</label>
+    <input type="password" name="password" required>
 
-    <!-- Main Content Area -->
-    <div class="container">
-        {% block content %}
+    <label>Enable Multi-Factor Authentication</label>
+    <input type="checkbox" name="mfa_enabled">
 
+    <label>Preferred MFA Method</label>
+    <select name="mfa_method">
+        <option value="Email">Email</option>
+        <option value="Text">Text</option>
+    </select>
 
-        <a href="{{ url_for('base') }}">login </a>
+    <button type="submit">login</button>
+</form>
+{% endblock %}
 
-
-        {% endblock %}
-    </div>
-
-</body>
 </html>

@@ -5,29 +5,71 @@
 {% block content %}
     <div class="container">
         <h2>Job List</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Date</th>
-                    <th>Client</th>
-                    <th>Status</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for job in jobs %}
-                <tr>
-                    <td>{{ job.job_title }}</td>
-                    <td>{{ job.date }}</td>
-                    <td>{{ job.client_name }}</td>
-                    <td>{{ job.status }}</td>
-                    <td>
-                        <a href="{{ url_for('job.job_intake') }}">Edit</a> |  <a href="#">Delete</a>
-                    </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+        <div class="job-list">
+            <form method="GET" action="{{ url_for('job.list_jobs') }}">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Date</th>
+                            <th>Client</th>
+                            <th>Status</th>
+                            <th>Assigned To</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4"></td>
+                            <td>
+                                <select id="filter-assignee" name="assignee" onchange="this.form.submit()">
+                                    <option value="">All</option>
+                                    {% for assignee in assignees %}
+                                        <option value="{{ assignee }}" {% if assignee|lower == current_filter|lower %}selected{% endif %}>{{ assignee }}</option>
+                                    {% endfor %}
+                                </select>
+                            </td>
+                            <td></td>
+                        </tr>
+                        {% for job in jobs %}
+                        <tr>
+                            <td>{{ job.job_title }}</td>
+                            <td>{{ job.date }}</td>
+                            <td>{{ job.client_name }}</td>
+                            <td>{{ job.status }}</td>
+                            <td>{{ job.technician_assigned }}</td>
+                            <td>
+                                <a href="{{ url_for('job.job_intake') }}">Edit</a> |
+                                <a href="#">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="6">
+                                <div class="address-container">
+                                    <span class="address-text">{{ job.address }}</span>
+                                    <button class="copy-address-btn" onclick="copyAddress('{{ job.address }}')">
+                                        <img src="{{ url_for('static', filename='images/copy-svgrepo-com.svg') }}" alt="Copy Address">
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </form>
+        </div>
     </div>
+
+    <script>
+    function copyAddress(address) {
+      navigator.clipboard.writeText(address)
+        .then(() => {
+          alert('Address copied to clipboard!');
+        })
+        .catch(err => {
+          console.error('Error copying address: ', err);
+        });
+    }
+    </script>
+
 {% endblock %}
