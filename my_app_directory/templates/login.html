@@ -4,6 +4,10 @@
 {% block title %}Login{% endblock %}
 {% block content %}
 <form method="POST" action="{{ url_for('auth.login') }}">
+
+    <a href="{{ url_for('base') }}">Developer login Bypass</a>
+
+
     <label>Username</label>
     <input type="text" name="username" required>
 
