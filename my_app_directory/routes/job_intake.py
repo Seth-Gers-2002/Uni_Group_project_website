@@ -1,9 +1,9 @@
 from flask import Blueprint, render_template, request
 from models import db, Job
 
-job_bp = Blueprint('job', __name__)
+job_intake_bp = Blueprint('job', __name__)
 
-@job_bp.route('/job_intake', methods=['GET', 'POST'])
+@job_intake_bp.route('/job_intake', methods=['GET', 'POST'])
 def job_intake():
     form = JobIntakeForm()
     if form.validate_on_submit():
@@ -44,7 +44,7 @@ def job_intake():
                     flash(f"{field}: {error}", "error")
     return render_template('job_intake.html', form=form)
 
-@job_bp.route('/jobs', methods=['GET'])  # New route to display jobs
+@job_intake_bp.route('/jobs', methods=['GET'])  # New route to display jobs
 def list_jobs():
     """
     Retrieve all jobs from the database and display them, with optional filtering.

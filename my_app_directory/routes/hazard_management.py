@@ -1,6 +1,8 @@
-from flask import render_template, request, redirect, url_for
-from . import hazard_management_bp
+from flask import Blueprint, render_template, request, redirect, url_for
 from models import db, Hazard
+
+hazard_management_bp = Blueprint('hazard_management', __name__)
+
 
 @hazard_management_bp.route('/hazard_form', methods=['GET', 'POST'])
 def hazard_form():

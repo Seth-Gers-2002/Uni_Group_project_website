@@ -1,6 +1,7 @@
-from flask import render_template, request, redirect, url_for
-from . import inventory_bp
+from flask import Blueprint, render_template, request, redirect, url_for
 from models import db, InventoryItem
+
+inventory_bp = Blueprint('inventory', __name__)
 
 @inventory_bp.route('/inventory_dashboard')
 def inventory_dashboard():
