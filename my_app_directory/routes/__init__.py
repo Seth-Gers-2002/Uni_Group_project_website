@@ -6,6 +6,7 @@ from routes.inventory import inventory_bp
 from routes.job_intake import job_intake_bp
 from routes.auth import auth_bp
 from routes.account import account_bp
+import access_control
 
 def create_app():
     app = Flask(__name__)
