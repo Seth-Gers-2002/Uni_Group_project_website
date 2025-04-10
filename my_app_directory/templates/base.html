@@ -23,10 +23,11 @@
         <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
         <a href="{{ url_for('job.job_intake') }}">Job Intake Form</a>
         <a href="#">Documentation</a>
-        <a href="#">Account</a>
-        <a href="{{url_for('client_home')}}">Log Out</a>
+        <a href="{{ url_for('account.account') }}">Account</a>
+        <a href="{{ url_for('client_home') }}">Log Out</a>
     </nav>
     {% endblock %}
+
 
     <!-- 🔔 Flash messages section -->
     <div class="flash-container">

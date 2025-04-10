@@ -5,6 +5,7 @@ from routes.hazard_management import hazard_management_bp
 from routes.inventory import inventory_bp
 from routes.job_intake import job_intake_bp
 from routes.auth import auth_bp
+from routes.account import account_bp
 
 def create_app():
     app = Flask(__name__)
@@ -20,6 +21,7 @@ def create_app():
     app.register_blueprint(inventory_bp)
     app.register_blueprint(job_intake_bp)
     app.register_blueprint(auth_bp)
+    app.register_blueprint(account_bp)
 
     @app.route('/index')
     def index():

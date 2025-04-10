@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Account Information{% endblock %}
+{% block content %}
+<div class="container">
+    <h2>Account Information</h2>
+    <p><strong>Username:</strong> {{ username }}</p>
+    <p><strong>Password:</strong> {{ masked_password }}</p>
+    <p><strong>User Role{% if roles|length > 1 %}s{% endif %}:</strong>
+        {% if roles %}
+            {{ roles | join(', ') }}
+        {% else %}
+            No role assigned
+        {% endif %}
+    </p>
+</div>
+{% endblock %}
