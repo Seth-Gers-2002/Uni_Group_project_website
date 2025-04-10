@@ -3,8 +3,8 @@
 {% block content %}
 <h2>Register</h2>
 <form method="POST" action="{{ url_for('auth.register') }}">
-    <label>Username</label>
-    <input type="text" name="username" required>
+    <label>Email</label>
+    <input type="email" name="username" required>
 
     <label>Password</label>
     <input type="password" name="password" required>
@@ -20,4 +20,7 @@
 
     <button type="submit">Register</button>
 </form>
+<p>
+    Already have an account? <a href="{{ url_for('auth.login') }}">Login here</a>.
+</p>
 {% endblock %}
