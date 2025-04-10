@@ -1,5 +1,6 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request, flash, redirect, url_for
 from models import db, Job
+from forms import JobIntakeForm  # <-- This line imports the JobIntakeForm class
 
 job_intake_bp = Blueprint('job', __name__)
 
