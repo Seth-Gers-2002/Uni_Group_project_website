@@ -1,0 +1,38 @@
+<!-- customer_base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}My App{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  {% block navbar %}
+  <nav>
+    <!-- Instead of customer.dashboard, link to client_home -->
+    <a href="{{ url_for('client_home') }}">Dashboard</a>
+    <!-- other navigation links appropriate for customers -->
+    <a href="{{ url_for('job.job_intake') }}">Post Job</a>
+    <a href="{{ url_for('account.account') }}">Account</a>
+    <a href="{{ url_for('auth.logout') }}">Log Out</a>
+  </nav>
+  {% endblock %}
+
+  <div class="flash-container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <ul>
+          {% for category, message in messages %}
+            <li class="flash-message {{ category }}">{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+  </div>
+
+  <div class="container">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>

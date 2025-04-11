@@ -36,7 +36,7 @@ def create_app():
 
     @app.route('/base')
     def base():
-        return render_template("base.html")
+        return render_template("admin_base.html")
 
     return app
 

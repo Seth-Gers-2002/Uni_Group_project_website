@@ -6,6 +6,8 @@ from routes.inventory import inventory_bp
 from routes.job_intake import job_intake_bp
 from routes.auth import auth_bp
 from routes.account import account_bp
+from my_app_directory.routes.customer import customer_bp
+from my_app_directory.routes.individual_cleaner import individual_bp
 import access_control
 
 def create_app():
@@ -23,6 +25,8 @@ def create_app():
     app.register_blueprint(job_intake_bp)
     app.register_blueprint(auth_bp)
     app.register_blueprint(account_bp)
+    app.register_blueprint(customer_bp)
+    app.register_blueprint(individual_bp)
 
     @app.route('/index')
     def index():
