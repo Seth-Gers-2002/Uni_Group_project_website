@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash, session
 from werkzeug.security import generate_password_hash, check_password_hash
-from models import db, User
+from models import db, User, Role, UserRole
 
 auth_bp = Blueprint('auth', __name__)
 
@@ -50,12 +50,24 @@ def login():
         username = request.form.get('username')
         password = request.form.get('password')
         user = User.query.filter_by(username=username).first()
-        if not user or not check_password_hash(user.password_hash, password):
-            flash("Invalid username or password.", "error")
+
+        if user and user.check_password(password):
+            session['user_id'] = user.id  # Or use flask-login
+            user_role = db.session.query(Role.role_name).join(UserRole).filter(UserRole.user_id == user.id).first()
+
+            if user_role:
+                role_name = user_role[0]
+                if role_name == 'Administrator':
+                    return redirect(url_for('admin.dashboard'))
+                elif role_name == 'Employee':
+                    return redirect(url_for('employee.dashboard'))
+                elif role_name == 'Customer':
+                    return redirect(url_for('account.client_home'))
+
+            flash('User role not assigned.')
             return redirect(url_for('auth.login'))
-        session['user_id'] = user.id
-        flash("Logged in successfully!", "success")
-        return redirect(url_for('base'))  # Now goes to role-based landing route
+        else:
+            flash('Invalid username or password.')
     return render_template('login.html')
 
 @auth_bp.route('/logout')
@@ -65,4 +77,4 @@ def logout():
     """
     session.pop('user_id', None)
     flash("Logged out successfully.", "info")
-    return redirect(url_for('index'))
+    return redirect(url_for('/'))

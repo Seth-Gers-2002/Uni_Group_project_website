@@ -6,8 +6,9 @@ from routes.inventory import inventory_bp
 from routes.job_intake import job_intake_bp
 from routes.auth import auth_bp
 from routes.account import account_bp
+from routes.admin import admin_bp
+from routes.individual_cleaner import individual_cleaner_bp
 from my_app_directory.routes.customer import customer_bp
-from my_app_directory.routes.individual_cleaner import individual_bp
 import access_control
 
 
