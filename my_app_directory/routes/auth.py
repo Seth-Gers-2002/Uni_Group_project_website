@@ -44,29 +44,19 @@ def register():
 
     return render_template('register.html')
 
-
 @auth_bp.route('/login', methods=['GET', 'POST'])
 def login():
-    """
-    Basic login for employees.
-    Users provide their email (as username) and password.
-    On successful login, the user id is stored in the session and the user is redirected to the homepage.
-    """
     if request.method == 'POST':
         username = request.form.get('username')
         password = request.form.get('password')
-
         user = User.query.filter_by(username=username).first()
         if not user or not check_password_hash(user.password_hash, password):
             flash("Invalid username or password.", "error")
             return redirect(url_for('auth.login'))
-
         session['user_id'] = user.id
         flash("Logged in successfully!", "success")
-        return redirect(url_for('client_home'))
-
+        return redirect(url_for('base'))  # Now goes to role-based landing route
     return render_template('login.html')
-#TODO: Fix page layering & security (admin vs user)
 
 @auth_bp.route('/logout')
 def logout():
