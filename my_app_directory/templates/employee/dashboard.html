@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Customer Dashboard{% endblock %}</title>
+    <title>{% block title %}Employee Dashboard{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
@@ -11,16 +11,16 @@
     {% block navbar %}
     <nav>
         <a href="{{ url_for('base') }}">Dashboard</a>
-        <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
-        <a href="{{ url_for('job.job_intake') }}">Job Intake Form</a>
+        <a href="{{ url_for('inventory.inventory_dashboard') }}">Shared Inventory</a>
+        <a href="{{ url_for('job.list_assigned_jobs') }}">Assigned Jobs</a>
         <a href="{{ url_for('account.account') }}">Account</a>
         <a href="{{ url_for('auth.logout') }}">Log Out</a>
     </nav>
     {% endblock %}
 
     <div class="container">
-        <h2>Welcome to your customer dashboard, {{ current_user.username }}!</h2>
-        <p>You can view the inventory and post jobs here.</p>
+        <h2>Welcome to your employee dashboard, {{ current_user.username }}!</h2>
+        <p>You are assigned specific jobs by your admin. View them here.</p>
     </div>
 
 </body>

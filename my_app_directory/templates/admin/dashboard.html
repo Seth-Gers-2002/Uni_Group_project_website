@@ -1,6 +1,48 @@
-{% extends 'customer_base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My App{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
 
-{% block content %}
-<h1>Welcome, Admin!</h1>
-<p>This is your dashboard.</p>
-{% endblock %}
+    {% block navbar %}
+    <nav>
+        <a href="{{ url_for('base') }}">Dashboard</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">Management ▼</button>
+            <div class="dropdown-content">
+                <a href="{{ url_for('hazard_management.hazard_form') }}">Hazard Form</a>
+                <a href="{{ url_for('job.list_jobs') }}">Job List</a>
+            </div>
+        </div>
+
+        <a href="{{ url_for('inventory.inventory_dashboard') }}">Stock Manager</a>
+        <a href="{{ url_for('job.job_intake') }}">Job Intake Form</a>
+        <a href="#">Documentation</a>
+        <a href="{{ url_for('account.account') }}">Account</a>
+        <a href="{{ url_for('client_home') }}">Log Out</a>
+    </nav>
+    {% endblock %}
+
+
+    <!-- 🔔 Flash messages section -->
+    <div class="flash-container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            {% for category, message in messages %}
+              <div class="flash-message {{ category }}">{{ message }}</div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+    </div>
+
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+
+</body>
+</html>
