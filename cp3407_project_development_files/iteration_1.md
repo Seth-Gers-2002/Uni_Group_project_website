@@ -23,6 +23,7 @@ User story 37, harrison, 15/3/2025
 
 Completed:
 * Task (developer name or initials), date completed
+
 Harrison 
 - Design the database schema tailored for inventory management.
 - Develop API endpoints to create, read, update, and delete (CRUD) inventory items.
@@ -37,7 +38,20 @@ Harrison
 - Implement basic form validation and data submission protocols.
 - Develop backend endpoints to store the captured information securely.
 - Test the feature under realistic conditions (e.g., in varying network conditions).
+- Stated a kaban board for tracking user stories
 * Story: 3,4 on 13/3/2025 and 5,8 on 14/3/2025
+
+Aaron
+- Developed the Wireframes for all pages and the website
+- Designed the website style guide
+- Projected and developed client interaction
+- Conducted market research
+
+Seth
+- Created and managed the Github
+- Established the skeleton of the website
+- Researched and provided materials that would be used to for project development
+- Recorded meeting and design briefs
 
 
 ### Burn Down for iteration-1:
@@ -53,6 +67,3 @@ Re-calculated Velocity:
 1. v2 = (E2/E1) * v1
 2. v2 = (9/41) * 0.7 = 0.154
 
-Old:
-velocity: estimated days / worked days 
-* Actual Velocity: 7 / 4 = 1.75
